@@ -20,7 +20,7 @@ public class WeaponAimMouse : MonoBehaviour
         Vector3 mousePos = GetMouseWorldPosition();
 
         Vector3 aimDirection = (mousePos - transform.position).normalized;
-        float angle = Mathf.Atan2(aimDirection.y,aimDirection.x)*Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(aimDirection.y,aimDirection.x) * Mathf.Rad2Deg;
         aimtTransform.eulerAngles = new Vector3(0, 0, angle);
     }
 

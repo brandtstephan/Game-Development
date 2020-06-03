@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private GameObject player;
-    void Start()
-    {
+    public Transform player;
+    public float smoothTime = 0.005f;
+    public Vector3 offset;
+    private Vector3 defaultDistance;
+    public Vector3 velocity = Vector3.one;
 
-        player = GameObject.FindGameObjectWithTag("Player");
-        
+    private void LateUpdate()
+    {
+        SmoothFollow();
     }
 
-    // Update is called once per frame
-    void Update()
+    void SmoothFollow()
     {
-        transform.position = player.transform.position;
-    }
-    private void FixedUpdate()
-    {
-        
+        Vector3 toPos = player.position + (player.rotation * defaultDistance);
+        Vector3 curPos = Vector3.SmoothDamp(transform.position, toPos, ref velocity, smoothTime);
+        transform.position = curPos + offset;
     }
 }
