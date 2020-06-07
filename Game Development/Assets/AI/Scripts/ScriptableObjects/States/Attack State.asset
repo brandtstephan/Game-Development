@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6efc569c974a62249a67dda5beb01334, type: 3}
-  m_Name: Chase Chaser
+  m_Name: Attack State
   m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 11400000, guid: 3968dd6df42fcb544a7901bd0b5e6445, type: 2}
-  transitions:
-  - decision: {fileID: 11400000, guid: 9b81fad4de2bae0409492aa785a8df5d, type: 2}
-    trueState: {fileID: 11400000, guid: 223c6e2d91cfdd341963706fc8e7fa9a, type: 2}
-    falseState: {fileID: 11400000, guid: d2cd414959e648b418a08dbb21b68779, type: 2}
+  actions: []
+  transitions: []

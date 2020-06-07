@@ -30,11 +30,7 @@ public class StateController : MonoBehaviour
         {
             return;
         }
-        if (CheckElapsedTime(enemyStats.enemyWaitTime))
-        {
 
-            Flip();
-        }
         currentState.UpdateState(this);
     }
 
@@ -44,32 +40,45 @@ public class StateController : MonoBehaviour
         {
             Gizmos.color = sceneGizmoColor;
             Ray ray = new Ray(eyes.position,transform.right);
-            Gizmos.DrawRay(ray);
+            //Gizmos.DrawRay(ray);
+            Gizmos.DrawWireSphere(eyes.position, enemyStats.lookRadius);
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(eyes.position, enemyStats.attackDistance);
         }
     }
 
-    private bool CheckElapsedTime(float maxTime)
+    public bool CheckElapsedTimeToFlip()
     {
-        if ((Time.time - startTime) >= maxTime)
+        if ((Time.time - startTime) >= enemyStats.enemyWaitTime)
         {
-
             startTime = setStartTime();
             return true;
         }
         return false;
     }
+
+    public bool CheckElapsedTime(float time)
+    {
+        if ((Time.time - startTime) >= time)
+        {
+            startTime = setStartTime();
+            return true;
+        }
+        return false;
+    }
+
     private float setStartTime()
     {
         return Time.time;
     }
 
-    private void Flip()
+    public void Flip()
     {
-        // Switch the way the player is labelled as facing.
-        
-        // Multiply the player's x local scale by -1.
-        transform.Rotate(0f, 180f, 0f);
-        enemyStats.enemyDirection *= -1;
+        Vector3 characterScale = transform.localScale;
+
+        characterScale.x *= -1;
+        transform.localScale = characterScale; 
+        enemyStats.enemyDirection = transform.localScale;
     }
 
     public void TransitionToState(State nextState)
@@ -78,5 +87,13 @@ public class StateController : MonoBehaviour
         {
             currentState = nextState;
         }
+    }
+
+    public enum AttackType
+    {
+        Ranged,
+        Melee,
+        MagicRanged,
+        MagicMelee
     }
 }

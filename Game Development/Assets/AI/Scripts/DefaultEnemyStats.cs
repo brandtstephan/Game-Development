@@ -7,10 +7,15 @@ using UnityEngine.Playables;
 public class DefaultEnemyStats : ScriptableObject
 {
     public float movSpeed;
-    [Range(1f, -1f)]
-    public float enemyDirection;
+    [HideInInspector] public Vector3 enemyDirection;
     public float enemyHealth;
-    public float enemyAttack;
+    public float enemyDamage;
     public float enemyWaitTime;
     public float lookRadius;
+    public float attackDistance;
+    public float chaseSpeed;
+    public float attackRate;
+    public StateController.AttackType attackType;
+    public LayerMask creatureType;
+    public Attack enemyAttack;
 }
