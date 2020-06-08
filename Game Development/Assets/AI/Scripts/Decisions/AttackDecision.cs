@@ -12,9 +12,7 @@ public class AttackDecision : Decision
 
     private bool AttackIfRangeAllow(StateController controller)
     {
-
         float dist = Vector2.Distance(controller.chaseTarget.position, controller.transform.position);
-        Debug.Log(dist);
 
         //Check if attack range is reached 
         if (dist <= controller.enemyStats.attackDistance)

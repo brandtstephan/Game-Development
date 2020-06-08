@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "PluggableAI/Attack/BasicAttack")]
 public class EnemyAttack : Attack
 {
-    public override void DoAttack(StateController controller = null)
+    public override void DoAttack(StateController controller = null, PlayerStats playerStats = null, DefaultEnemyStats enemyStats = null)
     {
         if (null != controller)
         {
@@ -28,17 +28,16 @@ public class EnemyAttack : Attack
             }
         }
     }
-
     private void MeleeAttack(StateController controller = null)
     {
         Debug.Log("PEWPEW");
-        
+
     }
     private void RangedAttack(StateController controller = null)
     {
 
     }
-    private void MagicRangedAttack(StateController controller= null)
+    private void MagicRangedAttack(StateController controller = null)
     {
 
     }
@@ -46,4 +45,5 @@ public class EnemyAttack : Attack
     {
 
     }
+
 }

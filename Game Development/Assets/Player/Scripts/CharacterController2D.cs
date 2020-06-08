@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,7 +12,9 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
-	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
+	[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
+
+	public BoxCollider2D groundCollider;//
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	private bool m_Grounded;            // Whether or not the player is grounded.
@@ -18,6 +22,8 @@ public class CharacterController2D : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
+
+	public Animator animator;
 
 	[Header("Events")]
 	[Space]
@@ -48,20 +54,36 @@ public class CharacterController2D : MonoBehaviour
 
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
-		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+		Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, k_GroundedRadius, m_WhatIsGround);
 		for (int i = 0; i < colliders.Length; i++)
 		{
 			if (colliders[i].gameObject != gameObject)
 			{
 				m_Grounded = true;
 				if (!wasGrounded)
+                {
 					OnLandEvent.Invoke();
+				}
+					
 			}
+		}
+
+
+	}
+
+	private void DisplayCorrectLandingAnimation(bool wasGrounded)
+	{
+		List<Collider2D> listOfColliders = new List<Collider2D>();
+		ContactFilter2D groundLayer = new ContactFilter2D();
+		groundLayer.SetLayerMask(LayerMask.GetMask("Ground"));
+
+		if (Physics2D.OverlapCollider(groundCollider, groundLayer, listOfColliders) > 0 && wasGrounded)
+		{
+			animator.SetTrigger("JumpLand");
 		}
 	}
 
-
-	public void Move(float move, bool crouch, bool jump)
+    public void Move(float move, bool crouch, bool jump)
 	{
 		// If crouching, check to see if the character can stand up
 		if (!crouch)
@@ -124,14 +146,17 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 		// If the player should jump...
+
 		if (m_Grounded && jump)
 		{
+			DisplayCorrectLandingAnimation(m_Grounded);
 			// Add a vertical force to the player.
+			animator.SetBool("JumpStart", true);
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
+		
 	}
-
 
 	private void Flip()
 	{
@@ -139,5 +164,10 @@ public class CharacterController2D : MonoBehaviour
 		m_FacingRight = !m_FacingRight;
 		// Multiply the player's x local scale by -1.
 		transform.Rotate(0f,180f,0f);
+	}
+
+	public void OnLanding()
+    {
+		//animator.SetBool("JumpFall", false);
 	}
 }
