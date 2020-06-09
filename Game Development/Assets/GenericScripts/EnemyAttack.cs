@@ -30,7 +30,7 @@ public class EnemyAttack : Attack
     }
     private void MeleeAttack(StateController controller = null)
     {
-        Debug.Log("PEWPEW");
+        //Debug.Log("PEWPEW");
 
     }
     private void RangedAttack(StateController controller = null)

@@ -19,6 +19,10 @@ public class StateController : MonoBehaviour
 
     [HideInInspector] public Transform chaseTarget;
 
+    private void Awake()
+    {
+        enemyStats.enemyHealth = enemyStats.enemyMaximumHealth;
+    }
     private void Start()
     {
         startTime = setStartTime();
@@ -95,5 +99,22 @@ public class StateController : MonoBehaviour
         Melee,
         MagicRanged,
         MagicMelee
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (damage > 0)
+        {
+            if ((enemyStats.enemyHealth - damage) < 0)
+            {
+                enemyStats.enemyHealth = 0;
+                Destroy(gameObject);
+            }
+            else
+            {
+                enemyStats.enemyHealth -= damage;
+            }
+            
+        }
     }
 }

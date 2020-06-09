@@ -7,6 +7,7 @@ public class PlayerAttackManager : MonoBehaviour
 
     public Weapon weapon;
     public PlayerStats playerStats;
+    public PlayerManager playerManager;
     private void Update()
     {
         DoAttack();

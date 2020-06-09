@@ -9,6 +9,7 @@ public class DefaultEnemyStats : ScriptableObject
     public float movSpeed;
     [HideInInspector] public Vector3 enemyDirection;
     public float enemyHealth;
+    public float enemyMaximumHealth;
     public float enemyDamage;
     public float enemyWaitTime;
     public float lookRadius;

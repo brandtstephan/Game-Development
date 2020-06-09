@@ -9,12 +9,12 @@ public class PlayerStats : ScriptableObject
     public float playerCurrentHealth;
     public float playerMaximumHealth;
     public float playerDamage;
+    public float playerRangeDamage;
     public float lookRadius;
     public float attackDistance;
     public float chaseSpeed;
     public float attackRate;
     public StateController.AttackType attackType;
     public LayerMask playerType;
-    //public Attack playerAttack;
 }
 

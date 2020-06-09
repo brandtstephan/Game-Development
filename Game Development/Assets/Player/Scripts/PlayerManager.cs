@@ -12,24 +12,25 @@ public class PlayerManager : MonoBehaviour
     public HealthBar healthBar;
     public float offset;
     public Attack playerAttack;
+
+    public static PlayerManager Instance{ get; set;}
+
+    private void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         //healthBar.transform.position = new Vector3(transform.position.x, transform.position.y + offset, transform.position.z); 
         healthBar.SetMaxHealth((int)stats.playerCurrentHealth);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void ResetCurrentHealth()
+    public void ResetCurrentHealth()
     {
         stats.playerCurrentHealth = stats.playerMaximumHealth;
         healthBar.SetHealth((int)stats.playerCurrentHealth);
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         if ((stats.playerCurrentHealth - damage) < 0)
         {
@@ -42,11 +43,14 @@ public class PlayerManager : MonoBehaviour
 
         healthBar.SetHealth((int)stats.playerCurrentHealth);
     }
-    void DoDamage(int damage, DefaultEnemyStats enemyStats)
+    public void DoDamage(GameObject enemy)
     {
+        StateController enemyController;
+        enemy.TryGetComponent<StateController>(out enemyController);
 
-    }
-    void Attack() {
-        
+        if (enemyController?.enemyStats != null)
+        {
+            enemyController.TakeDamage((int)stats.playerDamage);
+        } 
     }
 }

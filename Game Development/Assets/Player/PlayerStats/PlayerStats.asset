@@ -16,6 +16,7 @@ MonoBehaviour:
   playerCurrentHealth: 100
   playerMaximumHealth: 100
   playerDamage: 30
+  playerRangeDamage: 15
   lookRadius: 0
   attackDistance: 0
   chaseSpeed: 0

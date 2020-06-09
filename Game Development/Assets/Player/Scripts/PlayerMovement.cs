@@ -50,11 +50,9 @@ public class PlayerMovement : MonoBehaviour
         Vector3 velocity = (position - lastPosition) / Time.deltaTime;
         Vector3 acceleration = (velocity - lastVelocity) / Time.deltaTime;
 
-        Debug.Log(isTouchingGround);
         if (velocity.y < 0 && !isTouchingGround)
         {
             // Decelerating
-            Debug.Log("GotTriggered");
             animator.SetTrigger("JumpFall");
         }
         
