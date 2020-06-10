@@ -13,28 +13,13 @@ public class ChaseAction : Action
 
     private void Chase(StateController controller)
     {
-        float playerDirection = (controller.chaseTarget.position - controller.transform.position).normalized.x;
-        float enemyDirection = 0;
-        playerDirection /= Mathf.Abs(playerDirection);
-
-        if (controller.chaseTarget.position.x < controller.transform.position.x)
-        {
-            Debug.Log(enemyDirection);
-            //controller.transform.localScale = new Vector2(-1,controller.transform.localScale.y);
-            enemyDirection = -1;
-
-        }
-        else
-        {
-            //controller.transform.localScale = new Vector2(1, controller.transform.localScale.y);
-            enemyDirection = 1;
-        }
-        controller.transform.Translate(2 * controller.enemyStats.chaseSpeed * Time.deltaTime * enemyDirection , 0, 0);
+        HandleDirection(controller);
+        controller.transform.Translate(2 * controller.enemyStats.chaseSpeed * Time.deltaTime *-1 , 0, 0);
     }
 
     private void HandleDirection(StateController controller)
     {
-        if (controller.chaseTarget.position.x > controller.transform.position.x && m_FacingRight && !m_FacingRight)
+        if (controller.chaseTarget.position.x > controller.transform.position.x && !m_FacingRight)
         {
             // ... flip the player.
             Flip(controller.transform);

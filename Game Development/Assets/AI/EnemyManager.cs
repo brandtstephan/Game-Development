@@ -7,6 +7,13 @@ public class EnemyManager : MonoBehaviour
     // Start is called before the first frame update
     public DefaultEnemyStats stats;
     // Update is called once per frame
+    private void FixedUpdate()
+    {
+        if (transform.rotation.y > 80)
+        {
+            //transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0.0f);
+        }
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.name.Equals("Player"))

@@ -19,9 +19,12 @@ MonoBehaviour:
   playerRangeDamage: 15
   lookRadius: 0
   attackDistance: 0
-  chaseSpeed: 0
   attackRate: 0
-  primaryAttackType: 0
+  playerRunSpeed: 14
+  playerCrouchSpeed: 0.348
+  playerMovementSmoothing: 0.123
+  playerJumpForce: 50
+  primaryAttackType: 1
   secondaryAttackType: 1
   playerType:
     serializedVersion: 2
