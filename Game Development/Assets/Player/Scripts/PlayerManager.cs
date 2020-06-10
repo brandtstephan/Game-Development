@@ -10,8 +10,10 @@ public class PlayerManager : MonoBehaviour
     public PlayerStats stats;
 
     public HealthBar healthBar;
-    public float offset;
-    public Attack playerAttack;
+    public Animator animator;
+    [HideInInspector]public bool changeAttackType = false;
+
+    public Weapon weapon;
 
     public static PlayerManager Instance{ get; set;}
 
@@ -21,13 +23,17 @@ public class PlayerManager : MonoBehaviour
     }
     void Start()
     {
-        //healthBar.transform.position = new Vector3(transform.position.x, transform.position.y + offset, transform.position.z); 
+        ResetCurrentHealth();
         healthBar.SetMaxHealth((int)stats.playerCurrentHealth);
+    }
+    private void Update()
+    {
+        SetAttackTyp();
     }
     public void ResetCurrentHealth()
     {
         stats.playerCurrentHealth = stats.playerMaximumHealth;
-        healthBar.SetHealth((int)stats.playerCurrentHealth);
+        healthBar.SetHealth((int)stats.playerCurrentHealth);     
     }
 
     public void TakeDamage(int damage)
@@ -52,5 +58,21 @@ public class PlayerManager : MonoBehaviour
         {
             enemyController.TakeDamage((int)stats.playerDamage);
         } 
+    }
+
+    public void SetAttackTyp()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            changeAttackType = !changeAttackType;
+            if (changeAttackType)
+            {
+                stats.primaryAttackType = StateController.AttackType.Ranged;
+            }
+            else
+            {
+                stats.primaryAttackType = StateController.AttackType.Melee;
+            }
+        }
     }
 }

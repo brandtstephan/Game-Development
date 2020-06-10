@@ -12,9 +12,13 @@ public class PlayerStats : ScriptableObject
     public float playerRangeDamage;
     public float lookRadius;
     public float attackDistance;
-    public float chaseSpeed;
     public float attackRate;
-    public StateController.AttackType attackType;
+    public float playerRunSpeed;
+    [Range(0, 1)] public float playerCrouchSpeed;
+    [Range(0, .3f)] public float playerMovementSmoothing;
+    public float playerJumpForce;
+    public StateController.AttackType primaryAttackType;
+    public StateController.AttackType secondaryAttackType;
     public LayerMask playerType;
 }
 

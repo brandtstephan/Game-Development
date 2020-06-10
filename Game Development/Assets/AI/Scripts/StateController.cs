@@ -103,6 +103,7 @@ public class StateController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Debug.Log(transform.name + " just took " + damage + " damage!");
         if (damage > 0)
         {
             if ((enemyStats.enemyHealth - damage) < 0)

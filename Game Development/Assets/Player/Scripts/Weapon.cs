@@ -6,7 +6,8 @@ public class Weapon : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public Transform firePoints;
+    public Transform firePoint;
+    public Transform meelePoint;
     public GameObject bulletPrefab;
     public PlayerStats stats;
     public float bulletSpeed = 5f;
@@ -14,7 +15,19 @@ public class Weapon : MonoBehaviour
     public void Shoot()
     {
         SetBulletValues();
-        Instantiate(bulletPrefab, firePoints.position, firePoints.rotation);
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+    }
+
+    public void Slash()
+    {
+        ContactFilter2D filter = new ContactFilter2D();
+        filter.SetLayerMask(LayerMask.GetMask("Enemy"));
+        List<Collider2D> listOfCollisions = new List<Collider2D>();
+
+        if (Physics2D.OverlapCollider(meelePoint.transform.GetComponent<Collider2D>(),filter,listOfCollisions) > 0)
+        {
+            listOfCollisions[0].GetComponent<StateController>().TakeDamage((int)stats.playerDamage);
+        }
     }
 
     public void SetBulletValues()
@@ -24,5 +37,15 @@ public class Weapon : MonoBehaviour
         prefab?.setBulletDamage((int)stats.playerRangeDamage);
         prefab?.setBulletSpeed(bulletSpeed);
         prefab?.setTimeToLive(proyectileTimeToLive);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+
+        if (meelePoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawWireSphere(meelePoint.position, stats.attackDistance);
     }
 }

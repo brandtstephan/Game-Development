@@ -5,18 +5,18 @@ using UnityEngine;
 public class PlayerAttackManager : MonoBehaviour
 {
 
-    public Weapon weapon;
-    public PlayerStats playerStats;
     public PlayerManager playerManager;
+    private bool isAttacking = false; 
     private void Update()
     {
         DoAttack();
+       
     }
     public void DoAttack()
     {
-        if (null != playerStats && weapon != null)
+        if (null != playerManager && playerManager.weapon != null)
         {
-                switch (playerStats.attackType)
+                switch (playerManager.stats.primaryAttackType)
                 {
                     case StateController.AttackType.Melee:
                         MeleeAttack();
@@ -31,21 +31,33 @@ public class PlayerAttackManager : MonoBehaviour
                         MagicRangedAttack();
                         break;
                     default:
+                        //Invoke("ResetAttack", 3f);
                         break;
 
                 }
+            
         }
     }
 
     private void MeleeAttack()
     {
-
+        if (Input.GetKeyUp(KeyCode.Mouse0) && !isAttacking)
+        {
+            playerManager.animator.SetTrigger("Attack");
+            isAttacking = true;
+        }
     }
     private void RangedAttack()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyUp(KeyCode.Mouse0) && !isAttacking)
         {
-            weapon.Shoot();
+            playerManager.weapon.Shoot();
+            //isAttacking = true;
+        }
+        if (Input.GetKeyUp(KeyCode.Mouse1) && !isAttacking)
+        {       
+            
+            //isAttacking = true;
         }
     }
     private void MagicRangedAttack()
@@ -55,5 +67,10 @@ public class PlayerAttackManager : MonoBehaviour
     private void MagicMeleeAttack()
     {
 
+    }
+
+    public void ResetAttack()
+    {
+        isAttacking = false;
     }
 }

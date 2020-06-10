@@ -7,7 +7,6 @@ public class CameraFollowPlayer : MonoBehaviour
     public Transform player;
     public float smoothTime = 0.005f;
     public Vector3 offset;
-    private Vector3 defaultDistance;
     public Vector3 velocity = Vector3.zero;
 
     private void FixedUpdate()

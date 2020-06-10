@@ -6,15 +6,23 @@ public class EnemyManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public DefaultEnemyStats stats;
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
-    {     
-    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.name.Equals("Player"))
+        {
+            collision.collider.GetComponent<KnockBack>().knockbackCount = collision.collider.GetComponent<KnockBack>().knockbackLenght;
+            collision.collider.GetComponent<PlayerManager>().TakeDamage((int)stats.enemyDamage);
 
+            if(collision.collider.transform.position.x < transform.position.x)
+            {
+                collision.collider.GetComponent<KnockBack>().knockbackDir = true;
+            }
+            else
+            {
+                collision.collider.GetComponent<KnockBack>().knockbackDir = false;
+            }
+        }
+    }
 
 }

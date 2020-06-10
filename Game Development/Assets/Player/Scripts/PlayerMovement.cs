@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
 
     private float horizontalMovement = 0f;
-    public float runSpeed = 40f;
     private bool jump = false;
     private bool isTouchingGround = true;
 
@@ -20,11 +19,12 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 lastPosition;
 
     public BoxCollider2D groundCollider;
+    public bool canMove = true;
 
     // Update is called once per frame
     void Update()
     {
-        horizontalMovement = Input.GetAxisRaw("Horizontal") * runSpeed;
+        horizontalMovement = Input.GetAxisRaw("Horizontal") * controller.playerManager.stats.playerRunSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMovement));
 
         if (Input.GetButtonDown("Jump")){
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        controller.Move(horizontalMovement * Time.fixedDeltaTime ,false,jump);
+        controller.Move(horizontalMovement * Time.fixedDeltaTime, false, jump);
         jump = false;
     }
 
@@ -75,5 +75,9 @@ public class PlayerMovement : MonoBehaviour
         {
             isTouchingGround = false;
         }
+    }
+    public void MoveCharacter()
+    {
+        canMove = !canMove;
     }
 }

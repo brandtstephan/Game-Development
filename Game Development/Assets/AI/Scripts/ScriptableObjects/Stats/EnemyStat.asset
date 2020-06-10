@@ -16,7 +16,7 @@ MonoBehaviour:
   enemyDirection: {x: -1, y: 1, z: 1}
   enemyHealth: 100
   enemyMaximumHealth: 100
-  enemyDamage: 0
+  enemyDamage: 15
   enemyWaitTime: 3
   lookRadius: 2
   attackDistance: 0.6

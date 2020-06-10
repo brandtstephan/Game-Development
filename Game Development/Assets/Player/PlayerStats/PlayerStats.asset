@@ -21,7 +21,8 @@ MonoBehaviour:
   attackDistance: 0
   chaseSpeed: 0
   attackRate: 0
-  attackType: 0
+  primaryAttackType: 0
+  secondaryAttackType: 1
   playerType:
     serializedVersion: 2
     m_Bits: 0
