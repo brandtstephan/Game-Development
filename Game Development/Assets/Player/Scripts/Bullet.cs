@@ -41,9 +41,9 @@ public class Bullet : MonoBehaviour
             StateController enemyController;
             collision.TryGetComponent<StateController>(out enemyController);
 
-            if (enemyController?.enemyStats != null)
+            if (enemyController?.enemyManager?.enemyStats != null)
             {
-                enemyController.TakeDamage((int)bulletDamage);
+                enemyController.enemyManager.TakeDamage((int)bulletDamage);
             }
         }
 

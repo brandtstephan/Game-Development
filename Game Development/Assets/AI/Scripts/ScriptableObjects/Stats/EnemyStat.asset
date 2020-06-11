@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff0052b281bd5b46b9982a3b48be8b5, type: 3}
   m_Name: EnemyStat
   m_EditorClassIdentifier: 
-  movSpeed: 0.3
-  enemyDirection: {x: -1, y: 1, z: 1}
+  movSpeed: 0.8
+  enemyDirection: {x: 1, y: 1, z: 1}
   enemyHealth: 100
   enemyMaximumHealth: 100
   enemyDamage: 15
   enemyWaitTime: 3
-  lookRadius: 2
-  attackDistance: 0.6
-  chaseSpeed: 0.7
+  lookRadius: 3
+  attackDistance: 1.2
+  chaseSpeed: 1.2
   attackRate: 1
   attackType: 1
   creatureType:

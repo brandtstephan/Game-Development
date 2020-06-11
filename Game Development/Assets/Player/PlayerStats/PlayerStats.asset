@@ -20,10 +20,10 @@ MonoBehaviour:
   lookRadius: 0
   attackDistance: 0
   attackRate: 0
-  playerRunSpeed: 14
+  playerRunSpeed: 23.48
   playerCrouchSpeed: 0.348
   playerMovementSmoothing: 0.123
-  playerJumpForce: 50
+  playerJumpForce: 76.7
   primaryAttackType: 1
   secondaryAttackType: 1
   playerType:

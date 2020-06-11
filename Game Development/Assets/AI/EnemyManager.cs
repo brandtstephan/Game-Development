@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public DefaultEnemyStats stats;
+    public DefaultEnemyStats enemyStats;
     // Update is called once per frame
     private void FixedUpdate()
     {
@@ -19,7 +19,7 @@ public class EnemyManager : MonoBehaviour
         if (collision.collider.name.Equals("Player"))
         {
             collision.collider.GetComponent<KnockBack>().knockbackCount = collision.collider.GetComponent<KnockBack>().knockbackLenght;
-            collision.collider.GetComponent<PlayerManager>().TakeDamage((int)stats.enemyDamage);
+            collision.collider.GetComponent<PlayerManager>().TakeDamage((int)enemyStats.enemyDamage);
 
             if(collision.collider.transform.position.x < transform.position.x)
             {
@@ -32,4 +32,36 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
+    public void Flip()
+    {
+        // Switch the way the player is labelled as facing.
+        enemyStats.isFacingRight = !enemyStats.isFacingRight;
+        // Multiply the player's x local scale by -1.
+        transform.Rotate(0f, 180f, 0f);
+    }
+    public enum AttackType
+    {
+        Ranged,
+        Melee,
+        MagicRanged,
+        MagicMelee
+    }
+
+    public void TakeDamage(int damage)
+    {
+        Debug.Log(transform.name + " just took " + damage + " damage!");
+        if (damage > 0)
+        {
+            if ((enemyStats.enemyHealth - damage) < 0)
+            {
+                enemyStats.enemyHealth = 0;
+                Destroy(gameObject);
+            }
+            else
+            {
+                enemyStats.enemyHealth -= damage;
+            }
+
+        }
+    }
 }

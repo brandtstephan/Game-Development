@@ -8,18 +8,18 @@ public class EnemyAttack : Attack
     {
         if (null != controller)
         {
-            switch (controller.enemyStats.attackType)
+            switch (controller.enemyManager.enemyStats.attackType)
             {
-                case StateController.AttackType.Melee:
+                case EnemyManager.AttackType.Melee:
                     MeleeAttack(controller);
                     break;
-                case StateController.AttackType.Ranged:
+                case EnemyManager.AttackType.Ranged:
                     RangedAttack(controller);
                     break;
-                case StateController.AttackType.MagicMelee:
+                case EnemyManager.AttackType.MagicMelee:
                     MagicMeleeAttack(controller);
                     break;
-                case StateController.AttackType.MagicRanged:
+                case EnemyManager.AttackType.MagicRanged:
                     MagicRangedAttack(controller);
                     break;
                 default:

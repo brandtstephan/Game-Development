@@ -15,7 +15,7 @@ public class AttackDecision : Decision
         float dist = Vector2.Distance(controller.chaseTarget.position, controller.transform.position);
 
         //Check if attack range is reached 
-        if (dist <= controller.enemyStats.attackDistance)
+        if (dist <= controller.enemyManager.enemyStats.attackDistance)
         {
             return true;
         }

@@ -19,7 +19,7 @@ public class LookDecision : Decision
         ContactFilter2D filter = new ContactFilter2D();
         filter.SetLayerMask(LayerMask.GetMask("Player"));
 
-        if (Physics2D.OverlapCircle(controller.eyes.position, controller.enemyStats.lookRadius, filter, listOfColliders) > 0)
+        if (Physics2D.OverlapCircle(controller.eyes.position, controller.enemyManager.enemyStats.lookRadius, filter, listOfColliders) > 0)
         {
             //listOfColliders.ForEach(e => Debug.Log(e.name));
             controller.chaseTarget = listOfColliders.ElementAt(0).transform;

@@ -16,7 +16,8 @@ public class DefaultEnemyStats : ScriptableObject
     public float attackDistance;
     public float chaseSpeed;
     public float attackRate;
-    public StateController.AttackType attackType;
+    public EnemyManager.AttackType attackType;
     public LayerMask creatureType;
     public Attack enemyAttack;
+    public bool isFacingRight;
 }

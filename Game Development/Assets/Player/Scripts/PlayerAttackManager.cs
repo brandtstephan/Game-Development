@@ -18,16 +18,16 @@ public class PlayerAttackManager : MonoBehaviour
         {
                 switch (playerManager.stats.primaryAttackType)
                 {
-                    case StateController.AttackType.Melee:
+                    case PlayerManager.AttackType.Melee:
                         MeleeAttack();
                         break;
-                    case StateController.AttackType.Ranged:
+                    case PlayerManager.AttackType.Ranged:
                         RangedAttack();
                         break;
-                    case StateController.AttackType.MagicMelee:
+                    case PlayerManager.AttackType.MagicMelee:
                         MagicMeleeAttack();
                         break;
-                    case StateController.AttackType.MagicRanged:
+                    case PlayerManager.AttackType.MagicRanged:
                         MagicRangedAttack();
                         break;
                     default:

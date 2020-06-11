@@ -8,7 +8,7 @@ using Vector3 = UnityEngine.Vector3;
 
 public class StateController : MonoBehaviour
 {
-    public DefaultEnemyStats enemyStats;
+    public EnemyManager enemyManager;
     public State currentState;
     private bool aiActive;
     public Color sceneGizmoColor = Color.red;
@@ -21,7 +21,7 @@ public class StateController : MonoBehaviour
 
     private void Awake()
     {
-        enemyStats.enemyHealth = enemyStats.enemyMaximumHealth;
+        enemyManager.enemyStats.enemyHealth = enemyManager.enemyStats.enemyMaximumHealth;
     }
     private void Start()
     {
@@ -45,15 +45,15 @@ public class StateController : MonoBehaviour
             Gizmos.color = sceneGizmoColor;
             Ray ray = new Ray(eyes.position,transform.right);
             //Gizmos.DrawRay(ray);
-            Gizmos.DrawWireSphere(eyes.position, enemyStats.lookRadius);
+            Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.lookRadius);
             Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(eyes.position, enemyStats.attackDistance);
+            Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.attackDistance);
         }
     }
 
     public bool CheckElapsedTimeToFlip()
     {
-        if ((Time.time - startTime) >= enemyStats.enemyWaitTime)
+        if ((Time.time - startTime) >= enemyManager.enemyStats.enemyWaitTime)
         {
             startTime = setStartTime();
             return true;
@@ -76,46 +76,13 @@ public class StateController : MonoBehaviour
         return Time.time;
     }
 
-    public void Flip()
-    {
-        Vector3 characterScale = transform.localScale;
-
-        characterScale.x *= -1;
-        transform.localScale = characterScale; 
-        enemyStats.enemyDirection = transform.localScale;
-    }
+    
 
     public void TransitionToState(State nextState)
     {
         if (nextState != remainState)
         {
             currentState = nextState;
-        }
-    }
-
-    public enum AttackType
-    {
-        Ranged,
-        Melee,
-        MagicRanged,
-        MagicMelee
-    }
-
-    public void TakeDamage(int damage)
-    {
-        Debug.Log(transform.name + " just took " + damage + " damage!");
-        if (damage > 0)
-        {
-            if ((enemyStats.enemyHealth - damage) < 0)
-            {
-                enemyStats.enemyHealth = 0;
-                Destroy(gameObject);
-            }
-            else
-            {
-                enemyStats.enemyHealth -= damage;
-            }
-            
         }
     }
 }

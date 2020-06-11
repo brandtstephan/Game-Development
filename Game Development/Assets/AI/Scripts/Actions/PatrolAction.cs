@@ -12,13 +12,13 @@ public class PatrolAction : Action
         
         if (controller.CheckElapsedTimeToFlip())
         {
-            controller.Flip();
+            controller.enemyManager.Flip();
         }
     }
 
     private void Patrol(StateController controller)
     {
-        float speed = controller.enemyStats.movSpeed;
+        float speed = controller.enemyManager.enemyStats.movSpeed;
         float direction = controller.transform.localScale.x;
 
         controller.transform.Translate(2 * Time.deltaTime * speed * direction*-1, 0 ,0);

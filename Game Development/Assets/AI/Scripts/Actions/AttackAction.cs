@@ -13,9 +13,9 @@ public class AttackAction : Action
     private void Attack(StateController controller)
     {
         //Attack rate
-        if (controller.CheckElapsedTime(controller.enemyStats.attackRate))
+        if (controller.CheckElapsedTime(controller.enemyManager.enemyStats.attackRate))
         {
-            controller.enemyStats.enemyAttack.DoAttack(controller);
+            controller.enemyManager.enemyStats.enemyAttack.DoAttack(controller);
         }     
     }
 

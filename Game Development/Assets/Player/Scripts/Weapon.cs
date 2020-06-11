@@ -26,7 +26,8 @@ public class Weapon : MonoBehaviour
 
         if (Physics2D.OverlapCollider(meelePoint.transform.GetComponent<Collider2D>(),filter,listOfCollisions) > 0)
         {
-            listOfCollisions[0].GetComponent<StateController>().TakeDamage((int)stats.playerDamage);
+            Debug.Log(listOfCollisions[0].name);
+            listOfCollisions[0].GetComponent<StateController>().enemyManager.TakeDamage((int)stats.playerDamage);
         }
     }
 

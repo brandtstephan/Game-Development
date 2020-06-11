@@ -17,8 +17,8 @@ public class PlayerStats : ScriptableObject
     [Range(0, 1)] public float playerCrouchSpeed;
     [Range(0, .3f)] public float playerMovementSmoothing;
     public float playerJumpForce;
-    public StateController.AttackType primaryAttackType;
-    public StateController.AttackType secondaryAttackType;
+    public PlayerManager.AttackType primaryAttackType;
+    public PlayerManager.AttackType secondaryAttackType;
     public LayerMask playerType;
 }
 

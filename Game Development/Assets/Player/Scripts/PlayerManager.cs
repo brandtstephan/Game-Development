@@ -54,9 +54,9 @@ public class PlayerManager : MonoBehaviour
         StateController enemyController;
         enemy.TryGetComponent<StateController>(out enemyController);
 
-        if (enemyController?.enemyStats != null)
+        if (enemyController?.enemyManager.enemyStats != null)
         {
-            enemyController.TakeDamage((int)stats.playerDamage);
+            enemyController.enemyManager.TakeDamage((int)stats.playerDamage);
         } 
     }
 
@@ -67,12 +67,20 @@ public class PlayerManager : MonoBehaviour
             changeAttackType = !changeAttackType;
             if (changeAttackType)
             {
-                stats.primaryAttackType = StateController.AttackType.Ranged;
+                stats.primaryAttackType = PlayerManager.AttackType.Ranged;
             }
             else
             {
-                stats.primaryAttackType = StateController.AttackType.Melee;
+                stats.primaryAttackType = PlayerManager.AttackType.Melee;
             }
         }
+    }
+
+    public enum AttackType
+    {
+        Ranged,
+        Melee,
+        MagicRanged,
+        MagicMelee
     }
 }
