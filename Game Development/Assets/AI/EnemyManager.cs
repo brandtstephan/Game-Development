@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    // Start is called before the first frame update
     public DefaultEnemyStats enemyStats;
-    // Update is called once per frame
-    private void FixedUpdate()
-    {
-        if (transform.rotation.y > 80)
-        {
-            //transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0.0f);
-        }
-    }
+    public KnockBack enemyKnockback;
+    public Rigidbody2D enemyRigidBody;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.name.Equals("Player"))
@@ -49,7 +43,6 @@ public class EnemyManager : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        Debug.Log(transform.name + " just took " + damage + " damage!");
         if (damage > 0)
         {
             if ((enemyStats.enemyHealth - damage) < 0)
@@ -63,5 +56,6 @@ public class EnemyManager : MonoBehaviour
             }
 
         }
+        enemyKnockback.ApplyKnockBack(ref enemyRigidBody);
     }
 }

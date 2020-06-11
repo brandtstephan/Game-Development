@@ -26,8 +26,17 @@ public class Weapon : MonoBehaviour
 
         if (Physics2D.OverlapCollider(meelePoint.transform.GetComponent<Collider2D>(),filter,listOfCollisions) > 0)
         {
-            Debug.Log(listOfCollisions[0].name);
-            listOfCollisions[0].GetComponent<StateController>().enemyManager.TakeDamage((int)stats.playerDamage);
+            listOfCollisions[0].GetComponent<KnockBack>().knockbackCount = listOfCollisions[0].GetComponent<KnockBack>().knockbackLenght;
+            if (listOfCollisions[0].transform.position.x < transform.position.x)
+            {
+                listOfCollisions[0].GetComponent<KnockBack>().knockbackDir = true;
+            }
+            else
+            {
+                listOfCollisions[0].GetComponent<KnockBack>().knockbackDir = false;
+            }
+             listOfCollisions[0].GetComponent<StateController>().enemyManager.TakeDamage((int)stats.playerDamage);
+
         }
     }
 
