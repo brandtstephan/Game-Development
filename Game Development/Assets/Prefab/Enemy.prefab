@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6492942205037640690}
   - component: {fileID: 6492942204410892724}
   m_Layer: 11
-  m_Name: Enemy 1
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20443fbeca30d5c42a539485693f6f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockback: 3
+  knockback: 1.5
   knockbackCount: 0
   knockbackLenght: 0.5
   knockbackDir: 0

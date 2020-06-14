@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
   playerDirection: {x: 0, y: 0, z: 0}
-  playerCurrentHealth: 100
+  playerCurrentHealth: 85
   playerMaximumHealth: 100
   playerDamage: 30
   playerRangeDamage: 15
   lookRadius: 0
   attackDistance: 0
-  attackRate: 0
+  attackRate: 2
   playerRunSpeed: 200
   playerCrouchSpeed: 0.348
   playerMovementSmoothing: 0.123
   playerJumpForce: 350
-  primaryAttackType: 1
+  primaryAttackType: 0
   secondaryAttackType: 1
   playerType:
     serializedVersion: 2
