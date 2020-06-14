@@ -6,7 +6,6 @@ public class PlayerAttackManager : MonoBehaviour
 {
 
     public PlayerManager playerManager;
-    private bool isAttacking = false; 
     private void Update()
     {
         DoAttack();
@@ -41,23 +40,21 @@ public class PlayerAttackManager : MonoBehaviour
 
     private void MeleeAttack()
     {
-        if (Input.GetKeyUp(KeyCode.Mouse0) && !isAttacking)
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             playerManager.animator.SetTrigger("Attack");
-            isAttacking = true;
         }
     }
     private void RangedAttack()
     {
-        if (Input.GetKeyUp(KeyCode.Mouse0) && !isAttacking)
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            playerManager.weapon.Shoot();
-            //isAttacking = true;
+            playerManager.animator.SetTrigger("MagicAttack");
+            //playerManager.weapon.Shoot();
         }
-        if (Input.GetKeyUp(KeyCode.Mouse1) && !isAttacking)
+        if (Input.GetKeyUp(KeyCode.Mouse1))
         {       
             
-            //isAttacking = true;
         }
     }
     private void MagicRangedAttack()
@@ -67,10 +64,5 @@ public class PlayerAttackManager : MonoBehaviour
     private void MagicMeleeAttack()
     {
 
-    }
-
-    public void ResetAttack()
-    {
-        isAttacking = false;
     }
 }

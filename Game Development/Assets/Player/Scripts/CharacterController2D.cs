@@ -18,7 +18,6 @@ public class CharacterController2D : MonoBehaviour
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
-	private Vector3 m_Velocity = Vector3.zero;
 
 	public Animator animator;
 
@@ -34,7 +33,6 @@ public class CharacterController2D : MonoBehaviour
 	public class BoolEvent : UnityEvent<bool> { }
 
 	public BoolEvent OnCrouchEvent;
-	private bool m_wasCrouching = false;
 
 	private void Awake()
 	{
@@ -52,13 +50,11 @@ public class CharacterController2D : MonoBehaviour
 
 		if(Physics2D.OverlapCollider(groundCollider, groundLayer, listOfColliders) > 0)
 		{
-				m_Grounded = true;	
+			m_Grounded = true;	
 		}
 	}
     public void Move(float move, bool jump)
 	{
-
-		//only control the player if grounded or airControl is turned on
 		if (m_Grounded || m_AirControl)
 		{
 			Vector3 targetVelocity = new Vector2(move, m_Rigidbody2D.velocity.y);
@@ -81,8 +77,7 @@ public class CharacterController2D : MonoBehaviour
 				Flip();
 			}
 		}
-		// If the player should jump...
-		
+
 		if (m_Grounded && jump)
 		{
 			animator.SetTrigger("JumpStart");
@@ -109,10 +104,11 @@ public class CharacterController2D : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-		Gizmos.color = Color.green;
+		/*Gizmos.color = Color.green;
 		Gizmos.DrawWireSphere(m_GroundCheck.position, k_GroundedRadius);
 
 		Gizmos.color = Color.red;
 		Gizmos.DrawWireSphere(m_CeilingCheck.position, k_CeilingRadius);
+		*/
 	}
 }

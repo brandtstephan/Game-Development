@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     public float bulletSpeed;
     public Rigidbody2D rb;
+    public Animator animator;
 
     [HideInInspector]public float timeToLive;
     [HideInInspector]public float bulletDamage;
@@ -16,6 +17,11 @@ public class Bullet : MonoBehaviour
     {
         rb.velocity = transform.right * bulletSpeed;
         Destroy(gameObject, timeToLive);
+    }
+
+    void Update()
+    {
+        RotateBulletProperly();
     }
     public void setBulletDamage(int damage)
     {
@@ -52,6 +58,21 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
         
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        animator.SetTrigger("blastExplode");
+    }
+
+    private void RotateBulletProperly()
+    {
+        float angle = Vector2.Angle(Vector2.right, rb.velocity);
+        if (rb.velocity.y < 0)
+        {
+            angle *= -1;
+        }
+        transform.eulerAngles = new Vector3(0, 0, angle);
     }
 
 }

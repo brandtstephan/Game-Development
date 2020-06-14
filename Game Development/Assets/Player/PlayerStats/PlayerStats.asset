@@ -23,7 +23,7 @@ MonoBehaviour:
   playerRunSpeed: 200
   playerCrouchSpeed: 0.348
   playerMovementSmoothing: 0.123
-  playerJumpForce: 250
+  playerJumpForce: 350
   primaryAttackType: 1
   secondaryAttackType: 1
   playerType:
