@@ -18,11 +18,6 @@ public class StateController : MonoBehaviour
     public State remainState;
 
     [HideInInspector] public Transform chaseTarget;
-
-    private void Awake()
-    {
-        enemyManager.enemyStats.enemyHealth = enemyManager.enemyStats.enemyMaximumHealth;
-    }
     private void Start()
     {
         startTime = setStartTime();

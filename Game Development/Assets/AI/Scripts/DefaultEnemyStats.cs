@@ -8,7 +8,6 @@ public class DefaultEnemyStats : ScriptableObject
 {
     public float movSpeed;
     [HideInInspector] public Vector3 enemyDirection;
-    public float enemyHealth;
     public float enemyMaximumHealth;
     public float enemyDamage;
     public float enemyWaitTime;
@@ -18,6 +17,6 @@ public class DefaultEnemyStats : ScriptableObject
     public float attackRate;
     public EnemyManager.AttackType attackType;
     public LayerMask creatureType;
-    public Attack enemyAttack;
-    public bool isFacingRight;
+    public float distanceJumpAction;
+    public float jumpForce;
 }

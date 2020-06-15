@@ -21,11 +21,9 @@ public class LookDecision : Decision
 
         if (Physics2D.OverlapCircle(controller.eyes.position, controller.enemyManager.enemyStats.lookRadius, filter, listOfColliders) > 0)
         {
-            //listOfColliders.ForEach(e => Debug.Log(e.name));
             controller.chaseTarget = listOfColliders.ElementAt(0).transform;
             return true;
-        }
-        
+        }  
         return false;
     }
 

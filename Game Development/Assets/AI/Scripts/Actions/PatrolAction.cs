@@ -21,7 +21,7 @@ public class PatrolAction : Action
         float speed = controller.enemyManager.enemyStats.movSpeed;
         float direction = controller.transform.localScale.x;
 
-        controller.transform.Translate(2 * Time.deltaTime * speed * direction*-1, 0 ,0);
+        controller.transform.Translate(2 * Time.deltaTime * speed * -1, 0 ,0);
     }
 
 }

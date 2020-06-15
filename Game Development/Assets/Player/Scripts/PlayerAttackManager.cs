@@ -13,7 +13,6 @@ public class PlayerAttackManager : MonoBehaviour
     }
     public void DoAttack()
     {
-        Debug.Log(nextAttackTime);
         if (Time.time >= nextAttackTime)
         {
             if (null != playerManager && playerManager.weapon != null)

@@ -18,13 +18,13 @@ public class ChaseAction : Action
 
     private void HandleDirection(StateController controller)
     {
-        if (controller.chaseTarget.position.x > controller.transform.position.x && !controller.enemyManager.enemyStats.isFacingRight)
+        if (controller.chaseTarget.position.x > controller.transform.position.x && !controller.enemyManager.isFacingRight)
         {
             // ... flip the player.
             controller.enemyManager.Flip();
         }
         // Otherwise if the input is moving the player left and the player is facing right...
-        else if (controller.chaseTarget.position.x < controller.transform.position.x && controller.enemyManager.enemyStats.isFacingRight)
+        else if (controller.chaseTarget.position.x < controller.transform.position.x && controller.enemyManager.isFacingRight)
         {
             // ... flip the player.
             controller.enemyManager.Flip();

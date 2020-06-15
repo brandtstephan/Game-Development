@@ -6,8 +6,14 @@ public class EnemyManager : MonoBehaviour
 {
     public DefaultEnemyStats enemyStats;
     public KnockBack enemyKnockback;
-    public Rigidbody2D enemyRigidBody;
-
+    public Rigidbody2D enemyRigidBody;  
+    public Animator animator;
+    public bool isFacingRight;
+    private float health;
+    private void Start()
+    {
+        health = enemyStats.enemyMaximumHealth;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.name.Equals("Player"))
@@ -29,7 +35,7 @@ public class EnemyManager : MonoBehaviour
     public void Flip()
     {
         // Switch the way the player is labelled as facing.
-        enemyStats.isFacingRight = !enemyStats.isFacingRight;
+        isFacingRight = !isFacingRight;
         // Multiply the player's x local scale by -1.
         transform.Rotate(0f, 180f, 0f);
     }
@@ -45,17 +51,67 @@ public class EnemyManager : MonoBehaviour
     {
         if (damage > 0)
         {
-            if ((enemyStats.enemyHealth - damage) < 0)
+            if ((health - damage) < 0)
             {
-                enemyStats.enemyHealth = 0;
-                Destroy(gameObject);
+                health = 0;
+                SetDeathAnimation();
+                return;
             }
             else
             {
-                enemyStats.enemyHealth -= damage;
+                health -= damage;
             }
 
         }
         enemyKnockback.ApplyKnockBack(ref enemyRigidBody);
     }
+
+    public void DoAttack()
+    {
+            switch (enemyStats.attackType)
+            {
+                case AttackType.Melee:
+                    MeleeAttack();
+                    break;
+                case AttackType.Ranged:
+                    RangedAttack();
+                    break;
+                case AttackType.MagicMelee:
+                    MagicMeleeAttack();
+                    break;
+                case AttackType.MagicRanged:
+                    MagicRangedAttack();
+                    break;
+                default:
+                    break;
+
+            }
+    }
+    private void MeleeAttack()
+    {
+        Debug.Log("MELEE");
+    }
+    private void RangedAttack()
+    {
+
+    }
+    private void MagicRangedAttack()
+    {
+
+    }
+    private void MagicMeleeAttack()
+    {
+
+    }
+
+    private void SetDeathAnimation()
+    {
+        animator.SetBool("IsDead", true);
+        this.enabled = false;
+        enemyRigidBody.velocity = Vector2.zero;
+        enemyRigidBody.isKinematic = true;
+        GetComponent<StateController>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+    }
 }
+

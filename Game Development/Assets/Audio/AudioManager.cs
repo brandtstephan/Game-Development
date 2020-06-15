@@ -10,10 +10,4 @@ public class AudioManager : MonoBehaviour
     {
         audio.Play();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

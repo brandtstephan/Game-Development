@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movSpeed: 0.8
   enemyDirection: {x: 1, y: 1, z: 1}
-  enemyHealth: 100
+  enemyHealth: 0
   enemyMaximumHealth: 100
   enemyDamage: 15
   enemyWaitTime: 3
@@ -27,3 +27,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   enemyAttack: {fileID: 11400000, guid: 3dee1e2d62f860946b4a989e3b9dc2b4, type: 2}
+  isFacingRight: 0
