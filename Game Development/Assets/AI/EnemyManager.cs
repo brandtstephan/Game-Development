@@ -10,6 +10,7 @@ public class EnemyManager : MonoBehaviour
     public Animator animator;
     public bool isFacingRight;
     private float health;
+    private float nextAttackTimeEnemy = 0f;
     private void Start()
     {
         health = enemyStats.enemyMaximumHealth;
@@ -66,8 +67,10 @@ public class EnemyManager : MonoBehaviour
         enemyKnockback.ApplyKnockBack(ref enemyRigidBody);
     }
 
-    public void DoAttack()
+    public void DoAttack()    
     {
+        if (Time.time >= nextAttackTimeEnemy)
+        {
             switch (enemyStats.attackType)
             {
                 case AttackType.Melee:
@@ -86,10 +89,12 @@ public class EnemyManager : MonoBehaviour
                     break;
 
             }
+        }
     }
     private void MeleeAttack()
     {
-        Debug.Log("MELEE");
+        animator.SetTrigger("IsAttacking");
+        nextAttackTimeEnemy = Time.time + (1 / enemyStats.attackRate);
     }
     private void RangedAttack()
     {
