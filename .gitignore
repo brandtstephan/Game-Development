@@ -1,9 +1,4 @@
-
 *.meta
-*.unity
-Assets/Scenes.meta
-Assets/Scenes/SampleScene.unity
-Assets/Scenes/SampleScene.unity.meta
 Game Development/.vs/Game Development/v16/.suo
 Game Development/Assembly-CSharp.csproj
 Game Development/Game Development.sln

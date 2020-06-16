@@ -7,12 +7,16 @@ public class ChaseAction : Action
 {
     public override void Act(StateController controller)
     {
+        controller.enemyManager.animator.SetTrigger("IsWalking");
         Chase(controller);
     }
 
     private void Chase(StateController controller)
     {
-        HandleDirection(controller);
+        if (controller.chaseTarget != null)
+        {
+            HandleDirection(controller);
+        }    
         controller.transform.Translate(2 * controller.enemyManager.enemyStats.chaseSpeed * Time.deltaTime *-1 , 0, 0);
     }
 

@@ -12,19 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff0052b281bd5b46b9982a3b48be8b5, type: 3}
   m_Name: EnemyStat
   m_EditorClassIdentifier: 
-  movSpeed: 0.8
+  movSpeed: 1.01
   enemyDirection: {x: 1, y: 1, z: 1}
-  enemyHealth: 0
   enemyMaximumHealth: 100
   enemyDamage: 15
-  enemyWaitTime: 3
+  enemyWaitTime: 5
   lookRadius: 3
   attackDistance: 1.2
-  chaseSpeed: 1.2
-  attackRate: 1
+  chaseSpeed: 0.8
+  attackRate: 0.5
   attackType: 1
   creatureType:
     serializedVersion: 2
     m_Bits: 2048
-  enemyAttack: {fileID: 11400000, guid: 3dee1e2d62f860946b4a989e3b9dc2b4, type: 2}
-  isFacingRight: 0
+  distanceJumpAction: 0.48
+  jumpForce: 400

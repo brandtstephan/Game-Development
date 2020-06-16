@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92cab694058d7c4c98692179cb4727a, type: 3}
-  m_Name: BasicAttack
+  m_Script: {fileID: 11500000, guid: e948e5922d25ff14586a012bf79f4cc5, type: 3}
+  m_Name: JumpDecision
   m_EditorClassIdentifier: 

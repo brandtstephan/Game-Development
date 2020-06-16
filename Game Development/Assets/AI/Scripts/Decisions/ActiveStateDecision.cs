@@ -11,6 +11,10 @@ public class ActiveStateDecision : Decision
 
     private bool CheckDistanceToTarget(StateController controller)
     {
+        if (controller?.chaseTarget?.position == null)
+        {
+            return false;
+        }
         float distance = Vector2.Distance((Vector2)controller.chaseTarget.position, (Vector2)controller.transform.position);
         if (distance < controller.enemyManager.enemyStats.lookRadius)
         {

@@ -16,12 +16,15 @@ public class StateController : MonoBehaviour
     private float startTime;
     public Rigidbody2D enemyRigidBody;
     public State remainState;
+    public bool isGrounded = true;
+    public Transform wallChecker;
 
     [HideInInspector] public Transform chaseTarget;
     private void Start()
     {
         startTime = setStartTime();
         aiActive = true;
+        chaseTarget = null;
     }
     void Update()
     {
@@ -33,16 +36,35 @@ public class StateController : MonoBehaviour
         currentState.UpdateState(this);
     }
 
+    private void FixedUpdate()
+    {
+
+        List<Collider2D> listOfColliders = new List<Collider2D>();
+        ContactFilter2D groundLayer = new ContactFilter2D();
+        groundLayer.SetLayerMask(LayerMask.GetMask("Ground"));
+
+        if (Physics2D.OverlapCollider(GetComponent<Collider2D>(), groundLayer, listOfColliders) > 0)
+        {
+            isGrounded = true;
+        }
+    }
+
     void OnDrawGizmos()
     {
         if(currentState != null && eyes != null)
         {
-            Gizmos.color = sceneGizmoColor;
-            Ray ray = new Ray(eyes.position,transform.right);
+            //Gizmos.color = sceneGizmoColor;
+            
+            float direction = enemyManager.isFacingRight ? 1f : -1f;
+
+            Vector2 dir = new Vector2(direction * enemyManager.enemyStats.distanceJumpAction, 0.0f);
+            Vector2 dir2 = new Vector2(direction * enemyManager.enemyStats.distanceJumpAction * 1.5f, 0.0f);
             //Gizmos.DrawRay(ray);
-            Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.lookRadius);
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.attackDistance);
+            //Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.lookRadius);
+            //Gizmos.color = Color.green;
+            //Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.attackDistance);
+            Debug.DrawRay(eyes.position, dir);
+            Debug.DrawRay(wallChecker.position, dir2, Color.red);
         }
     }
 
