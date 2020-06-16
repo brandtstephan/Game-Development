@@ -19,11 +19,11 @@ MonoBehaviour:
   playerRangeDamage: 50
   lookRadius: 0
   attackDistance: 0
-  attackRate: 10
+  attackRate: 1
   playerRunSpeed: 200
   playerCrouchSpeed: 0.348
   playerMovementSmoothing: 0.123
-  playerJumpForce: 600
+  playerJumpForce: 650
   primaryAttackType: 0
   secondaryAttackType: 1
   playerType:
