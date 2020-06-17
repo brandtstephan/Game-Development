@@ -35,8 +35,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         controller.Move(horizontalMovement * Time.fixedDeltaTime * PlayerManager.Instance.stats.playerRunSpeed, jump);
-
-        
         jump = false;
 
     }
