@@ -14,11 +14,14 @@ public class PlayerStats : ScriptableObject
     public float attackDistance;
     public float attackRate;
     public float playerRunSpeed;
+    [HideInInspector] public float playerInitialSpeed;
     [Range(0, 1)] public float playerCrouchSpeed;
     [Range(0, .3f)] public float playerMovementSmoothing;
     public float playerJumpForce;
     public PlayerManager.AttackType primaryAttackType;
     public PlayerManager.AttackType secondaryAttackType;
     public LayerMask playerType;
+    public float rollingSpeedMultiplier;
+    
 }
 

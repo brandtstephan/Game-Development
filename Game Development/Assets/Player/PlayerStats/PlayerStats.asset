@@ -18,14 +18,16 @@ MonoBehaviour:
   playerDamage: 30
   playerRangeDamage: 50
   lookRadius: 0
-  attackDistance: 0
-  attackRate: 1
+  attackDistance: 10
+  attackRate: 2
   playerRunSpeed: 200
+  playerInitialSpeed: 200
   playerCrouchSpeed: 0.348
   playerMovementSmoothing: 0.123
-  playerJumpForce: 650
+  playerJumpForce: 655.76
   primaryAttackType: 0
   secondaryAttackType: 1
   playerType:
     serializedVersion: 2
     m_Bits: 0
+  rollingSpeedMultiplier: 500

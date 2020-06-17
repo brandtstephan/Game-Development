@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerAttackManager : MonoBehaviour
 {
-
-    public PlayerManager playerManager;
     private float nextAttackTime = 0f;
     private void Update()
     {
@@ -15,9 +13,9 @@ public class PlayerAttackManager : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            if (null != playerManager && playerManager.weapon != null)
-            {
-                switch (playerManager.stats.primaryAttackType)
+            if (null != PlayerManager.Instance && PlayerManager.Instance.weapon != null)
+            {  
+                switch (PlayerManager.Instance.stats.primaryAttackType)
                 {
                     case PlayerManager.AttackType.Melee:
                         MeleeAttack();
@@ -37,7 +35,11 @@ public class PlayerAttackManager : MonoBehaviour
                 }
 
             }
-            
+
+        }
+        else
+        {
+            PlayerManager.Instance.isAttacking = false;
         }
     }
 
@@ -45,7 +47,7 @@ public class PlayerAttackManager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            playerManager.animator.SetTrigger("Attack");
+            PlayerManager.Instance.animator.SetTrigger("Attack");
             ResetAttackTimer();
         }
     }
@@ -53,7 +55,7 @@ public class PlayerAttackManager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            playerManager.animator.SetTrigger("MagicAttack");
+            PlayerManager.Instance.animator.SetTrigger("MagicAttack");
             ResetAttackTimer();
         }
         if (Input.GetKeyUp(KeyCode.Mouse1))
@@ -72,6 +74,7 @@ public class PlayerAttackManager : MonoBehaviour
 
     private void ResetAttackTimer()
     {
-        nextAttackTime = Time.time + (1f / playerManager.stats.attackRate);
+        nextAttackTime = Time.time + (1f / PlayerManager.Instance.stats.attackRate);
+        PlayerManager.Instance.isAttacking = true;
     }
 }

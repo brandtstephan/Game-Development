@@ -12,14 +12,17 @@ public class PlayerManager : MonoBehaviour
     public HealthBar healthBar;
     public Animator animator;
     [HideInInspector]public bool changeAttackType = false;
+    public ParticleSystem dust;
 
     public Weapon weapon;
 
     public static PlayerManager Instance{ get; set;}
 
+    public bool isAttacking = false;
     private void Awake()
     {
         Instance = this;
+        stats.playerInitialSpeed = stats.playerRunSpeed;
     }
     void Start()
     {
@@ -67,11 +70,11 @@ public class PlayerManager : MonoBehaviour
             changeAttackType = !changeAttackType;
             if (changeAttackType)
             {
-                stats.primaryAttackType = PlayerManager.AttackType.Ranged;
+                stats.primaryAttackType = AttackType.Ranged;
             }
             else
             {
-                stats.primaryAttackType = PlayerManager.AttackType.Melee;
+                stats.primaryAttackType = AttackType.Melee;
             }
         }
     }
@@ -82,5 +85,10 @@ public class PlayerManager : MonoBehaviour
         Melee,
         MagicRanged,
         MagicMelee
+    }
+
+    public void CreateDust()
+    {
+        dust.Play();
     }
 }

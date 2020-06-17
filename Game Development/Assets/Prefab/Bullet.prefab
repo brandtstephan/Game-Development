@@ -53,7 +53,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 461cafc65f59f1d45a3281d143a3b3a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -555705389
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -251127428626693186, guid: 572a7b6a6d92b8e49a9475a105bbb37a,
     type: 3}
@@ -138,9 +138,8 @@ MonoBehaviour:
   bulletSpeed: 10
   rb: {fileID: 1898395436564039567}
   animator: {fileID: -3482823045835145506}
-  posMouse: {x: 0, y: 0, z: 0}
   timeToLive: 3
-  bulletDamage: 15
+  bulletDamage: 50
 --- !u!95 &-3482823045835145506
 Animator:
   serializedVersion: 3

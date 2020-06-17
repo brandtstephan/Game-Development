@@ -9,12 +9,11 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
-	[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
-
+	public Collider2D ceilingCollider;                // A collider that will be disabled when crouching
 	public BoxCollider2D groundCollider;//
 
 	const float k_GroundedRadius = 0.4f; // Radius of the overlap circle to determine if grounded
-	private bool m_Grounded;            // Whether or not the player is grounded.
+	private bool isGrounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
@@ -22,7 +21,6 @@ public class CharacterController2D : MonoBehaviour
 	public Animator animator;
 
 	public KnockBack knockbackManager;
-	public PlayerManager playerManager;
 
 	[Header("Events")]
 	[Space]
@@ -42,7 +40,7 @@ public class CharacterController2D : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		m_Grounded = false;
+		isGrounded = false;
 
 		List<Collider2D> listOfColliders = new List<Collider2D>();
 		ContactFilter2D groundLayer = new ContactFilter2D();
@@ -50,12 +48,12 @@ public class CharacterController2D : MonoBehaviour
 
 		if(Physics2D.OverlapCollider(groundCollider, groundLayer, listOfColliders) > 0)
 		{
-			m_Grounded = true;	
+			isGrounded = true;	
 		}
 	}
     public void Move(float move, bool jump)
 	{
-		if (m_Grounded || m_AirControl)
+		if (isGrounded || m_AirControl)
 		{
 			Vector3 targetVelocity = new Vector2(move, m_Rigidbody2D.velocity.y);
 
@@ -78,14 +76,15 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 
-		if (m_Grounded && jump)
+		if (isGrounded && jump)
 		{
 			animator.SetTrigger("JumpStart");
-			m_Grounded = false;
-			m_Rigidbody2D.AddForce(new Vector2(0f, playerManager.stats.playerJumpForce));
+			PlayerManager.Instance.CreateDust();
+			isGrounded = false;
+			m_Rigidbody2D.AddForce(new Vector2(0f, PlayerManager.Instance.stats.playerJumpForce));
         }
 
-        if (m_Grounded)
+        if (isGrounded)
         {
 			animator.SetBool("isJumping", false);
 		}
@@ -110,5 +109,27 @@ public class CharacterController2D : MonoBehaviour
 		Gizmos.color = Color.red;
 		Gizmos.DrawWireSphere(m_CeilingCheck.position, k_CeilingRadius);
 		*/
+	}
+
+	public void RollDodge()
+    {
+        if (!isGrounded && !PlayerManager.Instance.isAttacking)
+        {
+			return;
+        }
+		animator.SetTrigger("IsRolling");
+		PlayerManager.Instance.CreateDust();
+		ceilingCollider.enabled = false;
+        PlayerManager.Instance.stats.playerRunSpeed = PlayerManager.Instance.stats.rollingSpeedMultiplier;
+	}
+
+	public void EnableCeilingCollider()
+    {
+        if (!ceilingCollider.enabled)
+        {
+			ceilingCollider.enabled = true;
+        }
+		PlayerManager.Instance.stats.playerRunSpeed = PlayerManager.Instance.stats.playerInitialSpeed;
+
 	}
 }

@@ -55,14 +55,18 @@ public class Bullet : MonoBehaviour
 
         if (null != collidedObject && collidedObject.layer != LayerMask.NameToLayer("Player"))
         {
-            Destroy(gameObject);
+            animator.SetBool("IsBlastExploding", true);
+            rb.velocity = Vector2.zero;
+            rb.isKinematic = true;
+            GetComponent<Collider2D>().enabled = false;
+            Destroy(gameObject, 0.12f);
         }
         
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        animator.SetTrigger("blastExplode");
+
     }
 
     private void RotateBulletProperly()

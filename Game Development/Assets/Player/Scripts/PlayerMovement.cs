@@ -9,9 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float horizontalMovement = 0f;
     private bool jump = false;
-
     public Animator animator;
-
     public BoxCollider2D groundCollider;
 
     void Update()
@@ -31,7 +29,14 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
         }
 
-        controller.Move(horizontalMovement * Time.fixedDeltaTime * controller.playerManager.stats.playerRunSpeed, jump);
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !jump)
+        {
+            controller.RollDodge();
+        }
+
+        controller.Move(horizontalMovement * Time.fixedDeltaTime * PlayerManager.Instance.stats.playerRunSpeed, jump);
+
+        
         jump = false;
 
     }
