@@ -84,10 +84,10 @@ public class CharacterController2D : MonoBehaviour
 			animator.SetTrigger("JumpStart");
 			PlayerManager.Instance.CreateDust();
 			isGrounded = false;
-			//m_Rigidbody2D.velocity = Vector2.up * PlayerManager.Instance.stats.playerJumpForce;
-			m_Rigidbody2D.AddForce(new Vector2(0f, PlayerManager.Instance.stats.playerJumpForce));
+			m_Rigidbody2D.velocity = Vector2.up * PlayerManager.Instance.stats.playerJumpForce;
+			//m_Rigidbody2D.AddForce(new Vector2(0f, PlayerManager.Instance.stats.playerJumpForce));
 		}
-       /* if (Input.GetKey(KeyCode.Space))
+        /*if (Input.GetKey(KeyCode.Space))
         {
             if (jumpTimeCounter > 0)
             {
