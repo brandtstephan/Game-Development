@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
-using UnityEngine.Events;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
+using Debug = UnityEngine.Debug;
 
 public class CharacterController2D : MonoBehaviour
 {	
@@ -9,40 +12,57 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
-	public Collider2D ceilingCollider;                // A collider that will be disabled when crouching
+	public Collider2D ceilingCollider;											// A collider that will be disabled when crouching
 	public BoxCollider2D groundCollider;
 
-	const float k_GroundedRadius = 0.4f; // Radius of the overlap circle to determine if grounded
-	private bool isGrounded;            // Whether or not the player is grounded.
-	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
+	private bool isGrounded;													// Whether or not the player is grounded.
 	private Rigidbody2D m_Rigidbody2D;
-	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+	private bool m_FacingRight = true;                                           // For determining which way the player is currently facing.
 
 	public Animator animator;
-
 	public KnockBack knockbackManager;
 
 	private float jumpTimeCounter;
 	public float jumpTime;
+	private bool isJumping = false;
+	private bool jump = false;
 
-	[Header("Events")]
-	[Space]
+	public float rollCooldown;
+	private float nextRoll = 0f;
 
-	public UnityEvent OnLandEvent;
-
-	[System.Serializable]
-	public class BoolEvent : UnityEvent<bool> { }
-
-	public BoolEvent OnCrouchEvent;
+	private float horizontalMovement = 0f;
 
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
-
 	}
 
+	private void Update()
+	{
+		horizontalMovement = Input.GetAxisRaw("Horizontal");
+
+		if (isGrounded)
+		{
+			animator.SetBool("isJumping", false);
+		}
+		else
+		{
+			animator.SetBool("isJumping", true);
+		}
+
+		if (horizontalMovement == 0)
+		{
+			animator.SetBool("isRunning", false);
+		}
+		else
+		{
+			animator.SetBool("isRunning", true);
+		}
+
+	}
 	private void FixedUpdate()
 	{
+	
 		isGrounded = false;
 
 		List<Collider2D> listOfColliders = new List<Collider2D>();
@@ -53,12 +73,29 @@ public class CharacterController2D : MonoBehaviour
 		{
 			isGrounded = true;	
 		}
+
+		if (Input.GetButton("Jump"))
+		{
+			jump = true;
+		}
+		Debug.Log(Time.time >= nextRoll);
+		if (Time.time >= nextRoll)
+		{
+			if (Input.GetKey(KeyCode.LeftShift) && !jump)
+			{
+				RollDodge();
+				nextRoll = Time.time + (1 / rollCooldown);
+			}	
+		}
+		Move(horizontalMovement, jump);
+		jump = false;
 	}
+
     public void Move(float move, bool jump)
 	{
 		if (isGrounded || m_AirControl)
 		{
-			Vector3 targetVelocity = new Vector2(move, m_Rigidbody2D.velocity.y);
+			Vector3 targetVelocity = new Vector2(move * PlayerManager.Instance.stats.playerRunSpeed, m_Rigidbody2D.velocity.y);
 
 			if (knockbackManager.knockbackCount <= 0)
 			{
@@ -84,27 +121,29 @@ public class CharacterController2D : MonoBehaviour
 			animator.SetTrigger("JumpStart");
 			PlayerManager.Instance.CreateDust();
 			isGrounded = false;
-			m_Rigidbody2D.velocity = Vector2.up * PlayerManager.Instance.stats.playerJumpForce;
-			//m_Rigidbody2D.AddForce(new Vector2(0f, PlayerManager.Instance.stats.playerJumpForce));
+			isJumping = true;
+			jumpTimeCounter = jumpTime;
+			m_Rigidbody2D.velocity = new Vector2(move * (PlayerManager.Instance.stats.playerRunSpeed/1.5f), PlayerManager.Instance.stats.playerJumpForce);
 		}
-        /*if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && isJumping)
         {
             if (jumpTimeCounter > 0)
             {
-				m_Rigidbody2D.velocity = Vector2.up * PlayerManager.Instance.stats.playerJumpForce;
+				m_Rigidbody2D.velocity = new Vector2(move * (PlayerManager.Instance.stats.playerRunSpeed / 1.5f), PlayerManager.Instance.stats.playerJumpForce);
 				jumpTimeCounter -= Time.deltaTime;
-			}
+            }
+            else
+            {
+				isJumping = false;
+            }
 			
 		}
-	   */
-        if (isGrounded)
+
+        if (Input.GetKeyUp(KeyCode.Space))
         {
-			animator.SetBool("isJumping", false);
-		}
-		else
-		{
-			animator.SetBool("isJumping", true);
-		}
+			isJumping = false;
+        }
+	   
 
 	}
 
@@ -126,7 +165,7 @@ public class CharacterController2D : MonoBehaviour
 
 	public void RollDodge()
     {
-        if (!isGrounded && !PlayerManager.Instance.isAttacking)
+        if (!isGrounded)
         {
 			return;
         }

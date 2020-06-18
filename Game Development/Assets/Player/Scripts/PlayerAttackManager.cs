@@ -45,7 +45,7 @@ public class PlayerAttackManager : MonoBehaviour
 
     private void MeleeAttack()
     {
-        if (Input.GetKeyUp(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             PlayerManager.Instance.animator.SetTrigger("Attack");
             ResetAttackTimer();
@@ -53,12 +53,12 @@ public class PlayerAttackManager : MonoBehaviour
     }
     private void RangedAttack()
     {
-        if (Input.GetKeyUp(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             PlayerManager.Instance.animator.SetTrigger("MagicAttack");
             ResetAttackTimer();
         }
-        if (Input.GetKeyUp(KeyCode.Mouse1))
+        if (Input.GetKey(KeyCode.Mouse1))
         {       
             
         }

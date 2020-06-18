@@ -24,7 +24,7 @@ public class PlayerManager : MonoBehaviour
         Instance = this;
         stats.playerInitialSpeed = stats.playerRunSpeed;
     }
-    void Start()
+    private void Start()
     {
         ResetCurrentHealth();
         healthBar.SetMaxHealth((int)stats.playerCurrentHealth);
