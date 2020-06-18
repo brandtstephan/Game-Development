@@ -1,55 +1,37 @@
 fileFormatVersion: 2
-guid: 8ca58cf27531c754d8e7f048210bb347
+guid: 921e96cca45ae3d4aaf084ad13a17b70
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7009636812466211898
-    second: Charecter - Agro stance_91x64_0
+      213: -7154870803722371512
+    second: Charecter_-_Running_Stance_BODY_32x32_0
   - first:
-      213: 4701516598653187060
-    second: Charecter - Agro stance_91x64_1
+      213: 2044178043034422615
+    second: Charecter_-_Running_Stance_BODY_32x32_1
   - first:
-      213: -4131352676714616749
-    second: Charecter - Agro stance_91x64_2
+      213: -7029000919665620515
+    second: Charecter_-_Running_Stance_BODY_32x32_2
   - first:
-      213: 6220957315435226557
-    second: Charecter - Agro stance_91x64_3
+      213: 8902727646649053801
+    second: Charecter_-_Running_Stance_BODY_32x32_3
   - first:
-      213: -347091012387056399
-    second: Charecter - Agro stance_91x64_4
+      213: 2362786268418362990
+    second: Charecter_-_Running_Stance_BODY_32x32_4
   - first:
-      213: -7370778306662423670
-    second: Charecter - Agro stance_91x64_5
+      213: -27101297556954384
+    second: Charecter_-_Running_Stance_BODY_32x32_5
   - first:
-      213: -2685655562078704590
-    second: Charecter - Agro stance_91x64_6
+      213: 596668770824531862
+    second: Charecter_-_Running_Stance_BODY_32x32_6
   - first:
-      213: -3442231114779805636
-    second: Charecter - Agro stance_91x64_7
+      213: -7627738564770592166
+    second: Charecter_-_Running_Stance_BODY_32x32_7
   - first:
-      213: 933614538851348834
-    second: Charecter - Agro stance_91x64_0
+      213: 1002358793548253502
+    second: Charecter_-_Running_Stance_BODY_32x32_8
   - first:
-      213: -3767011837916181322
-    second: Charecter - Agro stance_91x64_1
-  - first:
-      213: -7325313970130394131
-    second: Charecter - Agro stance_91x64_2
-  - first:
-      213: 8866631204515412784
-    second: Charecter - Agro stance_91x64_3
-  - first:
-      213: -6531732145914483911
-    second: Charecter - Agro stance_91x64_4
-  - first:
-      213: 8548604708190211850
-    second: Charecter - Agro stance_91x64_5
-  - first:
-      213: 363723465116692080
-    second: Charecter - Agro stance_91x64_6
-  - first:
-      213: 2972068218855625452
-    second: Charecter - Agro stance_91x64_7
+      213: -303356103953363131
+    second: Charecter_-_Running_Stance_BODY_32x32_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_0
+      name: Charecter_-_Running_Stance_BODY_32x32_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 147
-        width: 19
-        height: 29
+        x: 4
+        y: 65
+        width: 22
+        height: 25
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 261ff510a7dd4fc00800000000000000
-      internalID: 933614538851348834
+      spriteID: 84e705289eac4bc90800000000000000
+      internalID: -7154870803722371512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_1
+      name: Charecter_-_Running_Stance_BODY_32x32_1
       rect:
         serializedVersion: 2
-        x: 117
-        y: 147
-        width: 19
-        height: 29
+        x: 36
+        y: 65
+        width: 22
+        height: 26
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc805021b2e8bbc0800000000000000
-      internalID: -3767011837916181322
+      spriteID: 75d48b089116e5c10800000000000000
+      internalID: 2044178043034422615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_2
+      name: Charecter_-_Running_Stance_BODY_32x32_2
       rect:
         serializedVersion: 2
-        x: 208
-        y: 147
-        width: 19
-        height: 30
+        x: 67
+        y: 71
+        width: 25
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de3eb2e51c1475a90800000000000000
-      internalID: -7325313970130394131
+      spriteID: dd9cf61a7e8f37e90800000000000000
+      internalID: -7029000919665620515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_3
+      name: Charecter_-_Running_Stance_BODY_32x32_3
       rect:
         serializedVersion: 2
-        x: 26
-        y: 83
-        width: 19
-        height: 30
+        x: 102
+        y: 69
+        width: 22
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03bf8836a1a9c0b70800000000000000
-      internalID: 8866631204515412784
+      spriteID: 962f09e30a7dc8b70800000000000000
+      internalID: 8902727646649053801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_4
+      name: Charecter_-_Running_Stance_BODY_32x32_4
       rect:
         serializedVersion: 2
-        x: 117
-        y: 83
+        x: 7
+        y: 33
         width: 19
-        height: 30
+        height: 25
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93b64ca4830aa55a0800000000000000
-      internalID: -6531732145914483911
+      spriteID: e6e4f31b79d4ac020800000000000000
+      internalID: 2362786268418362990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_5
+      name: Charecter_-_Running_Stance_BODY_32x32_5
       rect:
         serializedVersion: 2
-        x: 208
-        y: 83
-        width: 19
-        height: 29
+        x: 37
+        y: 33
+        width: 21
+        height: 25
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0fc8ec80beb2a670800000000000000
-      internalID: 8548604708190211850
+      spriteID: 0f26a227387bf9ff0800000000000000
+      internalID: -27101297556954384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_6
+      name: Charecter_-_Running_Stance_BODY_32x32_6
       rect:
         serializedVersion: 2
-        x: 26
-        y: 19
-        width: 19
-        height: 29
+        x: 67
+        y: 33
+        width: 23
+        height: 26
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e21ce70943c0500800000000000000
-      internalID: 363723465116692080
+      spriteID: 69fa095f51bc74800800000000000000
+      internalID: 596668770824531862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_7
+      name: Charecter_-_Running_Stance_BODY_32x32_7
       rect:
         serializedVersion: 2
-        x: 117
-        y: 19
-        width: 19
-        height: 28
+        x: 97
+        y: 38
+        width: 26
+        height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +290,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce21e116c48ee3920800000000000000
-      internalID: 2972068218855625452
+      spriteID: a5a0d475034d42690800000000000000
+      internalID: -7627738564770592166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_BODY_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39cee2130819ed00800000000000000
+      internalID: 1002358793548253502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_BODY_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fc96f0b334acbf0800000000000000
+      internalID: -303356103953363131
       vertices: []
       indices: 
       edges: []
@@ -323,9 +347,7 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: da1aaa2ad575c504ba1263ee1e9feaec, type: 3}
-      name: _Emission
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

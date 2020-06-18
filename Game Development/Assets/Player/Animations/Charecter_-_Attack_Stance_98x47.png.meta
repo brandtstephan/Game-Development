@@ -1,55 +1,31 @@
 fileFormatVersion: 2
-guid: 8ca58cf27531c754d8e7f048210bb347
+guid: 126834d0ea9771d4c93ae1bf28f7e849
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7009636812466211898
-    second: Charecter - Agro stance_91x64_0
+      213: -8106903797274022465
+    second: Charecter_-_Attack_Stance_98x47_0
   - first:
-      213: 4701516598653187060
-    second: Charecter - Agro stance_91x64_1
+      213: 8905325533087160542
+    second: Charecter_-_Attack_Stance_98x47_1
   - first:
-      213: -4131352676714616749
-    second: Charecter - Agro stance_91x64_2
+      213: -5966913052429510419
+    second: Charecter_-_Attack_Stance_98x47_2
   - first:
-      213: 6220957315435226557
-    second: Charecter - Agro stance_91x64_3
+      213: 7247399107765849291
+    second: Charecter_-_Attack_Stance_98x47_3
   - first:
-      213: -347091012387056399
-    second: Charecter - Agro stance_91x64_4
+      213: 3381450776084928624
+    second: Charecter_-_Attack_Stance_98x47_4
   - first:
-      213: -7370778306662423670
-    second: Charecter - Agro stance_91x64_5
+      213: -1439773412651042461
+    second: Charecter_-_Attack_Stance_98x47_5
   - first:
-      213: -2685655562078704590
-    second: Charecter - Agro stance_91x64_6
+      213: -419631290359396885
+    second: Charecter_-_Attack_Stance_98x47_6
   - first:
-      213: -3442231114779805636
-    second: Charecter - Agro stance_91x64_7
-  - first:
-      213: 933614538851348834
-    second: Charecter - Agro stance_91x64_0
-  - first:
-      213: -3767011837916181322
-    second: Charecter - Agro stance_91x64_1
-  - first:
-      213: -7325313970130394131
-    second: Charecter - Agro stance_91x64_2
-  - first:
-      213: 8866631204515412784
-    second: Charecter - Agro stance_91x64_3
-  - first:
-      213: -6531732145914483911
-    second: Charecter - Agro stance_91x64_4
-  - first:
-      213: 8548604708190211850
-    second: Charecter - Agro stance_91x64_5
-  - first:
-      213: 363723465116692080
-    second: Charecter - Agro stance_91x64_6
-  - first:
-      213: 2972068218855625452
-    second: Charecter - Agro stance_91x64_7
+      213: -6605204198378640059
+    second: Charecter_-_Attack_Stance_98x47_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -147,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_0
+      name: Charecter_-_Attack_Stance_98x47_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 147
-        width: 19
-        height: 29
+        x: 31
+        y: 108
+        width: 15
+        height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 261ff510a7dd4fc00800000000000000
-      internalID: 933614538851348834
+      spriteID: fbd6737d2fd7e7f80800000000000000
+      internalID: -8106903797274022465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_1
+      name: Charecter_-_Attack_Stance_98x47_1
       rect:
         serializedVersion: 2
-        x: 117
-        y: 147
-        width: 19
-        height: 29
+        x: 129
+        y: 108
+        width: 14
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc805021b2e8bbc0800000000000000
-      internalID: -3767011837916181322
+      spriteID: ed850e0d362169b70800000000000000
+      internalID: 8905325533087160542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_2
+      name: Charecter_-_Attack_Stance_98x47_2
       rect:
         serializedVersion: 2
-        x: 208
-        y: 147
-        width: 19
-        height: 30
+        x: 224
+        y: 108
+        width: 21
+        height: 27
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,83 +179,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de3eb2e51c1475a90800000000000000
-      internalID: -7325313970130394131
+      spriteID: de81c406134413da0800000000000000
+      internalID: -5966913052429510419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_3
+      name: Charecter_-_Attack_Stance_98x47_3
       rect:
         serializedVersion: 2
-        x: 26
-        y: 83
-        width: 19
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 10
+        y: 54
+        width: 76
+        height: 34
+      alignment: 9
+      pivot: {x: 0.38845694, y: 0.22850396}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03bf8836a1a9c0b70800000000000000
-      internalID: 8866631204515412784
+      spriteID: bcccdd3171fe39460800000000000000
+      internalID: 7247399107765849291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_4
+      name: Charecter_-_Attack_Stance_98x47_4
       rect:
         serializedVersion: 2
-        x: 117
-        y: 83
-        width: 19
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 111
+        y: 54
+        width: 76
+        height: 34
+      alignment: 9
+      pivot: {x: 0.34423387, y: 0.23419291}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93b64ca4830aa55a0800000000000000
-      internalID: -6531732145914483911
+      spriteID: 078d20ea0935dee20800000000000000
+      internalID: 3381450776084928624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_5
+      name: Charecter_-_Attack_Stance_98x47_5
       rect:
         serializedVersion: 2
-        x: 208
-        y: 83
-        width: 19
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 226
+        y: 61
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.35209602, y: 0.0063542966}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0fc8ec80beb2a670800000000000000
-      internalID: 8548604708190211850
+      spriteID: 369f1ed95b5e40ce0800000000000000
+      internalID: -1439773412651042461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_6
+      name: Charecter_-_Attack_Stance_98x47_6
       rect:
         serializedVersion: 2
-        x: 26
-        y: 19
-        width: 19
-        height: 29
+        x: 32
+        y: 14
+        width: 20
+        height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e21ce70943c0500800000000000000
-      internalID: 363723465116692080
+      spriteID: be54d71909b2d2af0800000000000000
+      internalID: -419631290359396885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charecter - Agro stance_91x64_7
+      name: Charecter_-_Attack_Stance_98x47_7
       rect:
         serializedVersion: 2
-        x: 117
-        y: 19
-        width: 19
-        height: 28
+        x: 129
+        y: 14
+        width: 14
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce21e116c48ee3920800000000000000
-      internalID: 2972068218855625452
+      spriteID: 54de8b607c99554a0800000000000000
+      internalID: -6605204198378640059
       vertices: []
       indices: 
       edges: []
@@ -324,7 +300,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures:
-    - texture: {fileID: 2800000, guid: da1aaa2ad575c504ba1263ee1e9feaec, type: 3}
+    - texture: {fileID: 2800000, guid: 6b8fb742be902f74b8f9fde744b11776, type: 3}
       name: _Emission
   spritePackingTag: 
   pSDRemoveMatte: 0

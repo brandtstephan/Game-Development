@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: ad959915b5d8b8f45bef11f385f3621e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3515816658319485250
+    second: Charecter_-_Running_Stance_ARM_32x32_0
+  - first:
+      213: -4090262206317012757
+    second: Charecter_-_Running_Stance_ARM_32x32_1
+  - first:
+      213: -8346167417317016152
+    second: Charecter_-_Running_Stance_ARM_32x32_2
+  - first:
+      213: -3350027837803839304
+    second: Charecter_-_Running_Stance_ARM_32x32_3
+  - first:
+      213: 8601682214364297124
+    second: Charecter_-_Running_Stance_ARM_32x32_4
+  - first:
+      213: -6766343075255662945
+    second: Charecter_-_Running_Stance_ARM_32x32_5
+  - first:
+      213: 7741147858246491203
+    second: Charecter_-_Running_Stance_ARM_32x32_6
+  - first:
+      213: -7762710398277348414
+    second: Charecter_-_Running_Stance_ARM_32x32_7
+  - first:
+      213: -5222763678663046277
+    second: Charecter_-_Running_Stance_ARM_32x32_8
+  - first:
+      213: 1768474916091008801
+    second: Charecter_-_Running_Stance_ARM_32x32_9
+  - first:
+      213: 4284965175470874468
+    second: Charecter_-_Running_Stance_ARM_32x32_0
+  - first:
+      213: 4228580973895866073
+    second: Charecter_-_Running_Stance_ARM_32x32_1
+  - first:
+      213: 7915086958213328564
+    second: Charecter_-_Running_Stance_ARM_32x32_2
+  - first:
+      213: 8662832192233493332
+    second: Charecter_-_Running_Stance_ARM_32x32_3
+  - first:
+      213: -7752791879898245285
+    second: Charecter_-_Running_Stance_ARM_32x32_4
+  - first:
+      213: -2617289756430760905
+    second: Charecter_-_Running_Stance_ARM_32x32_5
+  - first:
+      213: 4022575823893786371
+    second: Charecter_-_Running_Stance_ARM_32x32_6
+  - first:
+      213: 4737637675179698969
+    second: Charecter_-_Running_Stance_ARM_32x32_7
+  - first:
+      213: 5479504007541246188
+    second: Charecter_-_Running_Stance_ARM_32x32_8
+  - first:
+      213: -4611726492706306165
+    second: Charecter_-_Running_Stance_ARM_32x32_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 74
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f5cd6df11477b30800000000000000
+      internalID: 4284965175470874468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6d905edffeeaa30800000000000000
+      internalID: 4228580973895866073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 76
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bee1ae07a908dd60800000000000000
+      internalID: 7915086958213328564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 74
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45355ee2bff883870800000000000000
+      internalID: 8662832192233493332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 42
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57d12d7cdc886490800000000000000
+      internalID: -7752791879898245285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 46
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7340da165d48dabd0800000000000000
+      internalID: -2617289756430760905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 49
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f6349366f03d730800000000000000
+      internalID: 4022575823893786371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 39
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91be79f4d587fb140800000000000000
+      internalID: 4737637675179698969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 15
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce843dafcdb1b0c40800000000000000
+      internalID: 5479504007541246188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charecter_-_Running_Stance_ARM_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 8
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b878bf8503bdfffb0800000000000000
+      internalID: -4611726492706306165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
