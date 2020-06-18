@@ -10856,7 +10856,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e9fac6a0ee8022448858b84e465e024e, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 5198847013098003830, guid: bd490bdd9548d42499f99145fb912662,
         type: 3}
       propertyPath: m_SortingOrder
@@ -10957,5 +10957,16 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.33987826
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8200185428092469771, guid: bd490bdd9548d42499f99145fb912662,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.508
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200185428092469771, guid: bd490bdd9548d42499f99145fb912662,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.185
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8200185428092469768, guid: bd490bdd9548d42499f99145fb912662, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd490bdd9548d42499f99145fb912662, type: 3}

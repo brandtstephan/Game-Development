@@ -10,7 +10,7 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
 	public Collider2D ceilingCollider;                // A collider that will be disabled when crouching
-	public BoxCollider2D groundCollider;//
+	public BoxCollider2D groundCollider;
 
 	const float k_GroundedRadius = 0.4f; // Radius of the overlap circle to determine if grounded
 	private bool isGrounded;            // Whether or not the player is grounded.
@@ -21,6 +21,9 @@ public class CharacterController2D : MonoBehaviour
 	public Animator animator;
 
 	public KnockBack knockbackManager;
+
+	private float jumpTimeCounter;
+	public float jumpTime;
 
 	[Header("Events")]
 	[Space]
@@ -59,7 +62,7 @@ public class CharacterController2D : MonoBehaviour
 
 			if (knockbackManager.knockbackCount <= 0)
 			{
-				m_Rigidbody2D.velocity = targetVelocity;//Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, playerManager.stats.playerMovementSmoothing);
+				m_Rigidbody2D.velocity = targetVelocity;
 			}
 			else
 			{
@@ -81,9 +84,19 @@ public class CharacterController2D : MonoBehaviour
 			animator.SetTrigger("JumpStart");
 			PlayerManager.Instance.CreateDust();
 			isGrounded = false;
+			//m_Rigidbody2D.velocity = Vector2.up * PlayerManager.Instance.stats.playerJumpForce;
 			m_Rigidbody2D.AddForce(new Vector2(0f, PlayerManager.Instance.stats.playerJumpForce));
-        }
-
+		}
+       /* if (Input.GetKey(KeyCode.Space))
+        {
+            if (jumpTimeCounter > 0)
+            {
+				m_Rigidbody2D.velocity = Vector2.up * PlayerManager.Instance.stats.playerJumpForce;
+				jumpTimeCounter -= Time.deltaTime;
+			}
+			
+		}
+	   */
         if (isGrounded)
         {
 			animator.SetBool("isJumping", false);
