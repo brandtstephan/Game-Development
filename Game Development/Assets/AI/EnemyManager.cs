@@ -117,6 +117,7 @@ public class EnemyManager : MonoBehaviour
         enemyRigidBody.isKinematic = true;
         GetComponent<StateController>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
+        Destroy(this.gameObject, 10f);
     }
 }
 

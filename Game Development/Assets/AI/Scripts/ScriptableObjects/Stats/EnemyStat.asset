@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movSpeed: 1.01
   enemyDirection: {x: 1, y: 1, z: 1}
-  enemyMaximumHealth: 100
-  enemyDamage: 15
+  enemyMaximumHealth: 50
+  enemyDamage: 50
   enemyWaitTime: 5
   lookRadius: 3
   attackDistance: 1.2

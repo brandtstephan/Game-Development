@@ -15,8 +15,8 @@ MonoBehaviour:
   playerDirection: {x: 0, y: 0, z: 0}
   playerCurrentHealth: 100
   playerMaximumHealth: 100
-  playerDamage: 30
-  playerRangeDamage: 50
+  playerDamage: 50
+  playerRangeDamage: 15
   lookRadius: 0
   attackDistance: 10
   attackRate: 2

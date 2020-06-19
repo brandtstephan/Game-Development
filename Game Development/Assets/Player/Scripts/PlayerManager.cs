@@ -52,16 +52,6 @@ public class PlayerManager : MonoBehaviour
 
         healthBar.SetHealth((int)stats.playerCurrentHealth);
     }
-    public void DoDamage(GameObject enemy)
-    {
-        StateController enemyController;
-        enemy.TryGetComponent<StateController>(out enemyController);
-
-        if (enemyController?.enemyManager.enemyStats != null)
-        {
-            enemyController.enemyManager.TakeDamage((int)stats.playerDamage);
-        } 
-    }
 
     public void SetAttackTyp()
     {

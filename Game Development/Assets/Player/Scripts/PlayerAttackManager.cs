@@ -47,8 +47,7 @@ public class PlayerAttackManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            PlayerManager.Instance.animator.SetTrigger("Attack");
-            ResetAttackTimer();
+            
         }
     }
     private void RangedAttack()
@@ -59,8 +58,9 @@ public class PlayerAttackManager : MonoBehaviour
             ResetAttackTimer();
         }
         if (Input.GetKey(KeyCode.Mouse1))
-        {       
-            
+        {
+            PlayerManager.Instance.animator.SetTrigger("Attack");
+            ResetAttackTimer();
         }
     }
     private void MagicRangedAttack()

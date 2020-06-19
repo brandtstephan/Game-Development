@@ -1,0 +1,3635 @@
+fileFormatVersion: 2
+guid: f370ca82c0d7a7a49b5eb767c2e5db40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7372369906311351927
+    second: 5SShooting_Down
+  - first:
+      213: 7259976743158238807
+    second: 4Shooting_0Degree_R
+  - first:
+      213: -8101343532442234810
+    second: 5Shooting_0Degree_R
+  - first:
+      213: -2569019476745918610
+    second: 5RShooting_315Degree
+  - first:
+      213: 1440206820907964414
+    second: 4RShooting_45Degree
+  - first:
+      213: -782059518835506723
+    second: 4RShooting_90Degree
+  - first:
+      213: 3248720078678063188
+    second: 5RShooting_90Degree
+  - first:
+      213: -17639294790225686
+    second: 5SShooting_45Degree
+  - first:
+      213: -3025490511396675846
+    second: 5SShooting_315Degree
+  - first:
+      213: 3812692701589581928
+    second: 6SShooting_0Degree
+  - first:
+      213: -6688746076800909846
+    second: Aggro_1
+  - first:
+      213: -618599042861324909
+    second: Aggro_2
+  - first:
+      213: -2284222802011832815
+    second: Aggro_3
+  - first:
+      213: 6323993132720047074
+    second: Slash_1
+  - first:
+      213: 2067079006265325574
+    second: 1Shield
+  - first:
+      213: -4899123203262164576
+    second: Aggro_4
+  - first:
+      213: -8621197403503266416
+    second: Aggro_5
+  - first:
+      213: -7109684990709468661
+    second: Aggro_6
+  - first:
+      213: 4963653854889909648
+    second: Slash_2
+  - first:
+      213: 729187994255836218
+    second: Slash_3
+  - first:
+      213: -9192740307775823463
+    second: Slash_4
+  - first:
+      213: -623056440252821693
+    second: 3Shield
+  - first:
+      213: -1349162357810121233
+    second: 4Shield
+  - first:
+      213: -4739355133767852843
+    second: 5Shield
+  - first:
+      213: 1420474142012726347
+    second: Slash_5
+  - first:
+      213: 3003400505604816393
+    second: 2Shield
+  - first:
+      213: -5874590956315338502
+    second: Aggro_7
+  - first:
+      213: 4120887838793579034
+    second: Aggro_8
+  - first:
+      213: 7746457139870942266
+    second: 1Shooting_Down_R
+  - first:
+      213: -5120109259955713488
+    second: 2Shooting_Down_R
+  - first:
+      213: 2617974998301754483
+    second: 3Shooting_Down_R
+  - first:
+      213: -4313083492263026178
+    second: 4Shooting_Down_R
+  - first:
+      213: -3206203960427130324
+    second: 6Shield
+  - first:
+      213: 3342015852658901869
+    second: 7Shield
+  - first:
+      213: 79004707068092859
+    second: 8Shield
+  - first:
+      213: -2497691239014461068
+    second: 9Shield
+  - first:
+      213: 8874020917143179442
+    second: 5Shooting_Down_R
+  - first:
+      213: 3452062840701483600
+    second: 6Shooting_Down_R
+  - first:
+      213: 3643733570189174414
+    second: 7Shooting_Down_R
+  - first:
+      213: 5423776876107135365
+    second: 8Shooting_Down_R
+  - first:
+      213: 6681446053446411059
+    second: 10Shield
+  - first:
+      213: -3749390805966728138
+    second: 11Shield
+  - first:
+      213: 4725539871321153248
+    second: All_Main_Character_SpriteSheets_42
+  - first:
+      213: -4305382225406380001
+    second: All_Main_Character_SpriteSheets_43
+  - first:
+      213: -2016519191586181976
+    second: All_Main_Character_SpriteSheets_44
+  - first:
+      213: 1461862263588559558
+    second: All_Main_Character_SpriteSheets_45
+  - first:
+      213: 6875740015118612596
+    second: All_Main_Character_SpriteSheets_46
+  - first:
+      213: 5096788954947207276
+    second: 9Shooting_Down_R
+  - first:
+      213: 110358487539033901
+    second: 10Shooting_Down_R
+  - first:
+      213: 1062424361733288389
+    second: Rolling_1
+  - first:
+      213: 7535530389671171210
+    second: Rolling_2
+  - first:
+      213: -7151450223846372506
+    second: Rolling_3
+  - first:
+      213: -2116845799691595398
+    second: Jump_1
+  - first:
+      213: -4590762746191011065
+    second: Jump_2
+  - first:
+      213: 2863643893105052325
+    second: Running_1
+  - first:
+      213: 3214753377938732225
+    second: Running_2
+  - first:
+      213: 6526280860710069658
+    second: Running_3
+  - first:
+      213: 5360581182786539048
+    second: Running_4
+  - first:
+      213: -2302822546398196731
+    second: 1Shooting_0Degree_R
+  - first:
+      213: -8901902421529355089
+    second: 2Shooting_0Degree_R
+  - first:
+      213: -2244324124883850798
+    second: 3Shooting_0Degree_R
+  - first:
+      213: 3374434674695290556
+    second: 5RShooting_45Degree
+  - first:
+      213: 3393441559637238244
+    second: All_Main_Character_SpriteSheets_62
+  - first:
+      213: 3608828029528418954
+    second: 6Shooting_0Degree_R
+  - first:
+      213: -5877536555277746395
+    second: 7Shooting_0Degree_R
+  - first:
+      213: 1289911126068286340
+    second: 8Shooting_0Degree_R
+  - first:
+      213: -4985861745727601176
+    second: Jump_3
+  - first:
+      213: 3694170292393954546
+    second: Jump_4
+  - first:
+      213: 9134145291128865118
+    second: Jump_5
+  - first:
+      213: 282500420911808837
+    second: Jump_6
+  - first:
+      213: -3415110513619933936
+    second: All_Main_Character_SpriteSheets_70
+  - first:
+      213: 7598110719381448322
+    second: Running_5
+  - first:
+      213: 2644626995077271643
+    second: Running_6
+  - first:
+      213: 3896011941792934112
+    second: Running_7
+  - first:
+      213: 2947951388398958176
+    second: Running_8
+  - first:
+      213: 5408046221417228569
+    second: All_Main_Character_SpriteSheets_75
+  - first:
+      213: -2143809242455835256
+    second: All_Main_Character_SpriteSheets_76
+  - first:
+      213: -411092862009890419
+    second: Rolling_4
+  - first:
+      213: -4152585442316669896
+    second: Rolling_5
+  - first:
+      213: -1146305616508327400
+    second: Rolling_6
+  - first:
+      213: 5504261437156600309
+    second: Jump_7
+  - first:
+      213: 1822687732649128451
+    second: Jump_8
+  - first:
+      213: -2874204281322771217
+    second: Jump_9
+  - first:
+      213: 1269891595596268925
+    second: Jump_10
+  - first:
+      213: 2535887141008031812
+    second: Running_9
+  - first:
+      213: 9027267606558474055
+    second: Running_10
+  - first:
+      213: -747489854137024714
+    second: 9Shooting_0Degree_R
+  - first:
+      213: -2208125058233789141
+    second: 10Shooting_0Degree_R
+  - first:
+      213: 2634415790099416477
+    second: Rolling_7
+  - first:
+      213: -5929321369171617277
+    second: Jump_11
+  - first:
+      213: -8617269577385938704
+    second: Jump_12
+  - first:
+      213: -6990695295909104266
+    second: Jump_13
+  - first:
+      213: -4526110853306466983
+    second: 3SShooting_90Degree
+  - first:
+      213: -2596135787408029349
+    second: 1SShooting_Down
+  - first:
+      213: 256733274584829883
+    second: 2SShooting_Down
+  - first:
+      213: 1857244101530240209
+    second: 3SShooting_Down
+  - first:
+      213: -8757310467335027636
+    second: 1SShooting_0Degree
+  - first:
+      213: 2656292846036884750
+    second: 2SShooting_0Degree
+  - first:
+      213: 330774949035108524
+    second: 3SShooting_0Degree
+  - first:
+      213: 1645302121673875906
+    second: 1SShooting_90Degree
+  - first:
+      213: -3804644073394965113
+    second: 2SShooting_90Degree
+  - first:
+      213: 3632980534878323577
+    second: 5SShooting_90Degree
+  - first:
+      213: 3502685203052283957
+    second: All_Main_Character_SpriteSheets_102
+  - first:
+      213: -6184674155996738409
+    second: All_Main_Character_SpriteSheets_103
+  - first:
+      213: 290460039956336135
+    second: 4SShooting_Down
+  - first:
+      213: -1633852639681106687
+    second: 6SShooting_Down
+  - first:
+      213: -2157609384947268963
+    second: All_Main_Character_SpriteSheets_106
+  - first:
+      213: -8449191191391503389
+    second: 4SShooting_90Degree
+  - first:
+      213: 5975038229287199379
+    second: All_Main_Character_SpriteSheets_108
+  - first:
+      213: -2217158379266752428
+    second: 6SShooting_90Degree
+  - first:
+      213: -6110799402575716943
+    second: 4SShooting_0Degree
+  - first:
+      213: -4738050112217237547
+    second: 5SShooting_0Degree
+  - first:
+      213: 2176667541105809334
+    second: All_Main_Character_SpriteSheets_112
+  - first:
+      213: -8688192103025567392
+    second: All_Main_Character_SpriteSheets_113
+  - first:
+      213: 4016828827896141094
+    second: 7SShooting_0Degree
+  - first:
+      213: 4551875168590205423
+    second: 8SShooting_0Degree
+  - first:
+      213: -8577602776503891624
+    second: 9SShooting_0Degree
+  - first:
+      213: -6952595086648892897
+    second: 7SShooting_90Degree
+  - first:
+      213: -4453219663253836126
+    second: 7SShooting_Down
+  - first:
+      213: 7685282656969223148
+    second: 1RShooting_45Degree
+  - first:
+      213: 4661941167316430152
+    second: 2RShooting_45Degree
+  - first:
+      213: -5937478541477856018
+    second: 3RShooting_45Degree
+  - first:
+      213: 7065056878285033873
+    second: 1RShooting_315Degree
+  - first:
+      213: 1186420574757816102
+    second: 2RShooting_315Degree
+  - first:
+      213: 6471040502436634021
+    second: 3RShooting_315Degree
+  - first:
+      213: -1927179197753652900
+    second: 4RShooting_315Degree
+  - first:
+      213: 2618461117101113314
+    second: All_Main_Character_SpriteSheets_126
+  - first:
+      213: 7441747536707907115
+    second: All_Main_Character_SpriteSheets_127
+  - first:
+      213: -7938081445839700202
+    second: All_Main_Character_SpriteSheets_128
+  - first:
+      213: -3700718317953742956
+    second: All_Main_Character_SpriteSheets_129
+  - first:
+      213: 1807806344680451231
+    second: All_Main_Character_SpriteSheets_130
+  - first:
+      213: 921742803739234785
+    second: 6RShooting_45Degree
+  - first:
+      213: -3221769360210564735
+    second: 7RShooting_45Degree
+  - first:
+      213: 6069781137423151405
+    second: 8RShooting_45Degree
+  - first:
+      213: 6371070715524164006
+    second: 8RShooting_315Degree
+  - first:
+      213: -7401888129561955103
+    second: All_Main_Character_SpriteSheets_135
+  - first:
+      213: 2401277957880868828
+    second: 6RShooting_315Degree
+  - first:
+      213: 1701328442558418531
+    second: 7RShooting_315Degree
+  - first:
+      213: 115449908291045216
+    second: 3SShooting_45Degree
+  - first:
+      213: 7539917714734987540
+    second: All_Main_Character_SpriteSheets_139
+  - first:
+      213: 4579763410461604848
+    second: All_Main_Character_SpriteSheets_140
+  - first:
+      213: 3076241060203355024
+    second: 1SShooting_315Degree
+  - first:
+      213: -286651533664184225
+    second: 2SShooting_315Degree
+  - first:
+      213: -5909789671439818527
+    second: 3SShooting_315Degree
+  - first:
+      213: 3167679063812298078
+    second: 1SShooting_45Degree
+  - first:
+      213: 601904364172736217
+    second: 2SShooting_45Degree
+  - first:
+      213: 3491873242693507604
+    second: 9RShooting_45Degree
+  - first:
+      213: -3744766614237963380
+    second: 10RShooting_45Degree
+  - first:
+      213: -7918346544836610026
+    second: 9RShooting_315Degree
+  - first:
+      213: 1534529789812672910
+    second: 10RShooting_315Degree
+  - first:
+      213: 8507684627590775016
+    second: 4SShooting_45Degree
+  - first:
+      213: 5481461550320457175
+    second: 4SShooting_315Degree
+  - first:
+      213: -1454575990105997055
+    second: All_Main_Character_SpriteSheets_152
+  - first:
+      213: 3239844459849859276
+    second: 6SShooting_315Degree
+  - first:
+      213: -5695136998296633681
+    second: All_Main_Character_SpriteSheets_154
+  - first:
+      213: 2165434504718376586
+    second: 6SShooting_45Degree
+  - first:
+      213: 6424877225839593266
+    second: All_Main_Character_SpriteSheets_156
+  - first:
+      213: 5050717068652178693
+    second: 1RShooting_90Degree
+  - first:
+      213: -9136578521409917411
+    second: 2RShooting_90Degree
+  - first:
+      213: 5188336925462857490
+    second: 3RShooting_90Degree
+  - first:
+      213: 339213944030957512
+    second: 7SShooting_45Degree
+  - first:
+      213: 1430015821216097167
+    second: All_Main_Character_SpriteSheets_161
+  - first:
+      213: 4181784081264604852
+    second: All_Main_Character_SpriteSheets_162
+  - first:
+      213: 9214899709335562456
+    second: All_Main_Character_SpriteSheets_163
+  - first:
+      213: 3579661147019021806
+    second: All_Main_Character_SpriteSheets_164
+  - first:
+      213: -5446546334515833180
+    second: 8RShooting_90Degree
+  - first:
+      213: 5958009898263888961
+    second: 7SShooting_315Degree
+  - first:
+      213: 8067098823399228873
+    second: All_Main_Character_SpriteSheets_167
+  - first:
+      213: 7273840663377885599
+    second: 6RShooting_90Degree
+  - first:
+      213: 687013891356833455
+    second: 7RShooting_90Degree
+  - first:
+      213: -4888187040688040137
+    second: 9RShooting_90Degree
+  - first:
+      213: -5526245144025674635
+    second: 10RShooting_90Degree
+  - first:
+      213: -3104758130625745324
+    second: All_Main_Character_SpriteSheets_172
+  - first:
+      213: 3661355566290223231
+    second: All_Main_Character_SpriteSheets_173
+  - first:
+      213: -4179952612327099018
+    second: All_Main_Character_SpriteSheets_174
+  - first:
+      213: -1500300665857116746
+    second: All_Main_Character_SpriteSheets_175
+  - first:
+      213: -8857360508923340043
+    second: All_Main_Character_SpriteSheets_176
+  - first:
+      213: 378500090741208618
+    second: All_Main_Character_SpriteSheets_177
+  - first:
+      213: 5007089813618733816
+    second: All_Main_Character_SpriteSheets_178
+  - first:
+      213: 307118239813677152
+    second: All_Main_Character_SpriteSheets_179
+  - first:
+      213: 6136303229923699113
+    second: All_Main_Character_SpriteSheets_180
+  - first:
+      213: -8321858394048319487
+    second: All_Main_Character_SpriteSheets_181
+  - first:
+      213: 536646173396775805
+    second: All_Main_Character_SpriteSheets_182
+  - first:
+      213: 349060635258248048
+    second: All_Main_Character_SpriteSheets_183
+  - first:
+      213: -2200603105374149631
+    second: 5SShooting_Down
+  - first:
+      213: -4854173703627297124
+    second: 5Shooting_0Degree_R
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 4Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 667
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e4b85026e90c460800000000000000
+      internalID: 7259976743158238807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 304
+        width: 33
+        height: 35
+      alignment: 9
+      pivot: {x: 0.34240353, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7505b1974acf310800000000000000
+      internalID: 1440206820907964414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 115
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.57932764, y: 0.0000009536743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1c89ad2019525f0800000000000000
+      internalID: -782059518835506723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 955
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed7e73b1eccc23a0800000000000000
+      internalID: -6688746076800909846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 955
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395aadfa27b4a67f0800000000000000
+      internalID: -618599042861324909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 955
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ebc32c67fcc40e0800000000000000
+      internalID: -2284222802011832815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash_1
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 962
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3c9cd8f3653c750800000000000000
+      internalID: 6323993132720047074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Shield
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 950
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5796356, y: -0.0000021046606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608bc13876dbfac10800000000000000
+      internalID: 2067079006265325574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 891
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a15fae3761d20cb0800000000000000
+      internalID: -4899123203262164576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 891
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095faa973aa5b5880800000000000000
+      internalID: -8621197403503266416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 891
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02f5df6b23555d90800000000000000
+      internalID: -7109684990709468661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 907
+        width: 76
+        height: 34
+      alignment: 9
+      pivot: {x: 0.3917164, y: 0.21081005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d16b8e1e072e440800000000000000
+      internalID: 4963653854889909648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 908
+        width: 76
+        height: 34
+      alignment: 9
+      pivot: {x: 0.342814, y: 0.21861716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34491c0e989e1a00800000000000000
+      internalID: 729187994255836218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash_4
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 915
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.32606876, y: 0.00982666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9916b923563dc6080800000000000000
+      internalID: -9192740307775823463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4Shield
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 886
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.40139508, y: 0.00758231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe53666dbffc64de0800000000000000
+      internalID: -1349162357810121233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5Shield
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 886
+        width: 39
+        height: 35
+      alignment: 9
+      pivot: {x: 0.46290472, y: 0.0059012277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcd753bd9d6a3eb0800000000000000
+      internalID: -4739355133767852843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash_5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 868
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cdb47c4b986b310800000000000000
+      internalID: 1420474142012726347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Shield
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 886
+        width: 32
+        height: 29
+      alignment: 9
+      pivot: {x: 0.408741, y: 0.009148959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ebdced8d83ea920800000000000000
+      internalID: 3003400505604816393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 827
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af81a1076a2497ea0800000000000000
+      internalID: -5874590956315338502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aggro_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 827
+        width: 19
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ab48ee7a5503930800000000000000
+      internalID: 4120887838793579034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 813
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34cbc9e9b1f08b60800000000000000
+      internalID: 7746457139870942266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 813
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ac62d61c7b1f8b0800000000000000
+      internalID: -5120109259955713488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 814
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37441ace36ae45420800000000000000
+      internalID: 2617974998301754483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 809
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1af0d5a69d424c0800000000000000
+      internalID: -4313083492263026178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6Shield
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 822
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4576056, y: 0.005739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c225a453c764183d0800000000000000
+      internalID: -3206203960427130324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7Shield
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 822
+        width: 39
+        height: 35
+      alignment: 9
+      pivot: {x: 0.4576056, y: 0.0059029716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63457316b9316e20800000000000000
+      internalID: 3342015852658901869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8Shield
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 822
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.46290472, y: -0.000001695421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1a06ccc5ea81100800000000000000
+      internalID: 79004707068092859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9Shield
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 822
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.3996181, y: 0.0059029716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47110fb2d0b665dd0800000000000000
+      internalID: -2497691239014461068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 760
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a76522dd038ef20800000000000000
+      internalID: 3452062840701483600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 760
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86aa437064219230800000000000000
+      internalID: 3643733570189174414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 763
+        width: 26
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589f7591550254b40800000000000000
+      internalID: 5423776876107135365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10Shield
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 758
+        width: 32
+        height: 29
+      alignment: 9
+      pivot: {x: 0.39354515, y: 0.007831442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333eb9929c349bc50800000000000000
+      internalID: 6681446053446411059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11Shield
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 759
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5794861, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634dc365dec77fbc0800000000000000
+      internalID: -3749390805966728138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 709
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6043c2fc8e6bb640800000000000000
+      internalID: 5096788954947207276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 708
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27a6bfa572188100800000000000000
+      internalID: 110358487539033901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolling_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 661
+        width: 32
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c175d9f35d7ebe00800000000000000
+      internalID: 1062424361733288389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolling_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 661
+        width: 28
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84d286e6f4939860800000000000000
+      internalID: 7535530389671171210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolling_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 661
+        width: 27
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bcfb259e1f0cc90800000000000000
+      internalID: -7151450223846372506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 649
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71da11f5f37f92e0800000000000000
+      internalID: -2116845799691595398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 649
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7032031fa955a40c0800000000000000
+      internalID: -4590762746191011065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_1
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 648
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa4eb3d2f4bdb720800000000000000
+      internalID: 2863643893105052325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 648
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4768c2a291d9c20800000000000000
+      internalID: 3214753377938732225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 654
+        width: 25
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95ed077dd1029a50800000000000000
+      internalID: 6526280860710069658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_4
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 652
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e82a52f2c946a40800000000000000
+      internalID: 5360581182786539048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 667
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ccc2d481bba00e0800000000000000
+      internalID: -2302822546398196731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 666
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac9d8379e6167480800000000000000
+      internalID: -8901902421529355089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 672
+        width: 29
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9657f691f8ad0e0800000000000000
+      internalID: -2244324124883850798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 627
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aa383f8f1251230800000000000000
+      internalID: 3608828029528418954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 627
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ffb4cb4abce6ea0800000000000000
+      internalID: -5877536555277746395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 632
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483df1db55fa6e110800000000000000
+      internalID: 1289911126068286340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 615
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e582b29829aecab0800000000000000
+      internalID: -4985861745727601176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 615
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc41f1fe44544330800000000000000
+      internalID: 3694170292393954546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 615
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e510b8c5fb003ce70800000000000000
+      internalID: 9134145291128865118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_6
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 615
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541c855d2a4abe300800000000000000
+      internalID: 282500420911808837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 616
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286a1d85179e17960800000000000000
+      internalID: 7598110719381448322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_6
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 616
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b505dfc7d3a93b420800000000000000
+      internalID: 2644626995077271643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 616
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e86f37183a611630800000000000000
+      internalID: 3896011941792934112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_8
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 621
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066b3a83b2a39e820800000000000000
+      internalID: 2947951388398958176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolling_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 597
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89a33658318b4af0800000000000000
+      internalID: -411092862009890419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolling_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 597
+        width: 36
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ca143aa8d0f56c0800000000000000
+      internalID: -4152585442316669896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolling_6
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 597
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a6cfb7d118710f0800000000000000
+      internalID: -1146305616508327400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 581
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9a9904d90136c40800000000000000
+      internalID: 5504261437156600309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_8
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 581
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3027309f5dc7b4910800000000000000
+      internalID: 1822687732649128451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 581
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec69df2f66cc18d0800000000000000
+      internalID: -2874204281322771217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 581
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7505c29daf8f9110800000000000000
+      internalID: 1269891595596268925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_9
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 586
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440c3464be7413320800000000000000
+      internalID: 2535887141008031812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 585
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ffe454f0c474d70800000000000000
+      internalID: 9027267606558474055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 590
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f34f220f160a5f0800000000000000
+      internalID: -747489854137024714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 589
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25165c65f92b51e0800000000000000
+      internalID: -2208125058233789141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rolling_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 533
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d954e8f04335f8420800000000000000
+      internalID: 2634415790099416477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 547
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a946f21a1d6bda0800000000000000
+      internalID: -5929321369171617277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_12
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 547
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f07122c9fe496880800000000000000
+      internalID: -8617269577385938704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 547
+        width: 19
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675f75aaaaf0cfe90800000000000000
+      internalID: -6990695295909104266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 446
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5860712, y: -0.0000008719308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95db0a6c8260031c0800000000000000
+      internalID: -4526110853306466983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1SShooting_Down
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 479
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b598dda914ca8fbd0800000000000000
+      internalID: -2596135787408029349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2SShooting_Down
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 479
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfc6a19d89109300800000000000000
+      internalID: 256733274584829883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SShooting_Down
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 479
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d446e49ba146c910800000000000000
+      internalID: 1857244101530240209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 446
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c448fa63788c77680800000000000000
+      internalID: -8757310467335027636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 446
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0.46321106, y: 0.008035594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d9073154c0dd420800000000000000
+      internalID: 2656292846036884750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 446
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.601432, y: 0.01748973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8e5d94016279400800000000000000
+      internalID: 330774949035108524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1SShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 446
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0.44888306, y: 0.011163119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1619eff8945d610800000000000000
+      internalID: 1645302121673875906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2SShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 446
+        width: 22
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5651842, y: 0.0013880236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7857f748f50333bc0800000000000000
+      internalID: -3804644073394965113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4SShooting_Down
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 409
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e0b0f0edbe70400800000000000000
+      internalID: 290460039956336135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6SShooting_Down
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 409
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d29744ea36359e0800000000000000
+      internalID: -1633852639681106687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4SShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 391
+        width: 27
+        height: 37
+      alignment: 9
+      pivot: {x: 0.51199, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebffbd80617eba80800000000000000
+      internalID: -8449191191391503389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6SShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 391
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6075875, y: 0.006454032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450460973321b31e0800000000000000
+      internalID: -2217158379266752428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 391
+        width: 32
+        height: 29
+      alignment: 9
+      pivot: {x: 0.38906014, y: 0.008745917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd1ecbd154123ba0800000000000000
+      internalID: -6110799402575716943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 391
+        width: 34
+        height: 31
+      alignment: 9
+      pivot: {x: 0.440335, y: 0.008181664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7ba45b6801f3eb0800000000000000
+      internalID: -4738050112217237547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 336
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4475366, y: 0.008744865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6255c427984aeb730800000000000000
+      internalID: 4016828827896141094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 336
+        width: 28
+        height: 29
+      alignment: 9
+      pivot: {x: 0.46377563, y: 0.008744865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe19db559528b2f30800000000000000
+      internalID: 4551875168590205423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 336
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c41a88bb36f880800000000000000
+      internalID: -8577602776503891624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7SShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 336
+        width: 21
+        height: 34
+      alignment: 9
+      pivot: {x: 0.60980517, y: 0.005273258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12aa29ea9b638f90800000000000000
+      internalID: -6952595086648892897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7SShooting_Down
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 339
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae68f87f4cf232c0800000000000000
+      internalID: -4453219663253836126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 299
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebee1fabdb97aa60800000000000000
+      internalID: 7685282656969223148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 300
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d6aa9aaca82b040800000000000000
+      internalID: 4661941167316430152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 306
+        width: 28
+        height: 29
+      alignment: 9
+      pivot: {x: 0.42226955, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec35b189b6d99da0800000000000000
+      internalID: -5937478541477856018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 296
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1911c1c6ccf1c0260800000000000000
+      internalID: 7065056878285033873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 296
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62787a01a33077010800000000000000
+      internalID: 1186420574757816102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 299
+        width: 28
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad96ea4d01cdc950800000000000000
+      internalID: 6471040502436634021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 291
+        width: 33
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c590f53fab84145e0800000000000000
+      internalID: -1927179197753652900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 252
+        width: 21
+        height: 25
+      alignment: 9
+      pivot: {x: 0.39752197, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e156274230bacc00800000000000000
+      internalID: 921742803739234785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 252
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189696826d9f943d0800000000000000
+      internalID: -3221769360210564735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 257
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21397019c13c3450800000000000000
+      internalID: 6069781137423151405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 248
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a926b57f079a6850800000000000000
+      internalID: 6371070715524164006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 243
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfe676849d035120800000000000000
+      internalID: 2401277957880868828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 243
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e86f854355c9710800000000000000
+      internalID: 1701328442558418531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 202
+        width: 30
+        height: 35
+      alignment: 9
+      pivot: {x: 0.42067567, y: 0.006800624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0670a0574192a9100800000000000000
+      internalID: 115449908291045216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1SShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 202
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b54e412f001ba20800000000000000
+      internalID: 3076241060203355024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2SShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 202
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5810a9e2fb950cf0800000000000000
+      internalID: -286651533664184225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3SShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 202
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.45500237, y: 0.0000005449568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0ae80fa953cfda0800000000000000
+      internalID: -5909789671439818527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1SShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 203
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0.4749515, y: 0.0000015784955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5559f0535bd5fb20800000000000000
+      internalID: 3167679063812298078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2SShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 203
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.55949557, y: 0.0000015784955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6f54784d46a5800800000000000000
+      internalID: 601904364172736217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 206
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a1077a630a57030800000000000000
+      internalID: 3491873242693507604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 205
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b9a9fda9ae70cc0800000000000000
+      internalID: -3744766614237963380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 192
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618729a45c16c1290800000000000000
+      internalID: -7918346544836610026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 191
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e890a0ba6bebb4510800000000000000
+      internalID: 1534529789812672910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4SShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 145
+        width: 34
+        height: 42
+      alignment: 9
+      pivot: {x: 0.45673254, y: 0.005667187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e08998d71e511670800000000000000
+      internalID: 8507684627590775016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4SShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 130
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4789527, y: 0.15785807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d510dcec30121c40800000000000000
+      internalID: 5481461550320457175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6SShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 134
+        width: 24
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc04edcee5d36fc20800000000000000
+      internalID: 3239844459849859276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6SShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 145
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8edc16853b2d0e10800000000000000
+      internalID: 2165434504718376586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 111
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50de3020a60c71640800000000000000
+      internalID: 5050717068652178693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 111
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ee5e01e3a543180800000000000000
+      internalID: -9136578521409917411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 117
+        width: 25
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2178149d1fca00840800000000000000
+      internalID: 5188336925462857490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7SShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 87
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf03dce84125b400800000000000000
+      internalID: 339213944030957512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 73
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a65a7e37faf964b0800000000000000
+      internalID: -5446546334515833180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7SShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 66
+        width: 23
+        height: 29
+      alignment: 9
+      pivot: {x: 0.55969274, y: 0.00000078924774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144c7428f6a1fa250800000000000000
+      internalID: 5958009898263888961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 68
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f993e6d7b8fd1f460800000000000000
+      internalID: 7273840663377885599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 68
+        width: 23
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa635168e73c88900800000000000000
+      internalID: 687013891356833455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 27
+        width: 25
+        height: 24
+      alignment: 9
+      pivot: {x: 0.52855957, y: 0.0000010331472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7371f1409cba92cb0800000000000000
+      internalID: -4888187040688040137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 26
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c4f902255de43b0800000000000000
+      internalID: -5526245144025674635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5SShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 391
+        width: 39
+        height: 44
+      alignment: 9
+      pivot: {x: 0.58110476, y: 0.0019163652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973c4515c80fa6230800000000000000
+      internalID: 3632980534878323577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3Shield
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 886
+        width: 35
+        height: 32
+      alignment: 9
+      pivot: {x: 0.42571846, y: 0.006170273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f06bbf7757a57f0800000000000000
+      internalID: -623056440252821693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5RShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 252
+        width: 43
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3748822, y: 0.00488812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe39f6457664de20800000000000000
+      internalID: 3374434674695290556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5RShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 233
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67ef7ba562095cd0800000000000000
+      internalID: -2569019476745918610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5RShooting_90Degree
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 68
+        width: 38
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5250517, y: 0.0062009813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f848f2b5c51d20800000000000000
+      internalID: 3248720078678063188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5SShooting_45Degree
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 145
+        width: 43
+        height: 49
+      alignment: 9
+      pivot: {x: 0.48339772, y: 0.004621545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0b0f3a72551cff0800000000000000
+      internalID: -17639294790225686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5SShooting_315Degree
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 125
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4440735, y: 0.25741148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afed2ecd86c4306d0800000000000000
+      internalID: -3025490511396675846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6SShooting_0Degree
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 388
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.43962497, y: 0.07943353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860b8f3cfc769e430800000000000000
+      internalID: 3812692701589581928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5Shooting_Down_R
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 747
+        width: 43
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5693161, y: 0.35564247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b094bfe10bd62b70800000000000000
+      internalID: 8874020917143179442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5SShooting_Down
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 404
+        width: 45
+        height: 40
+      alignment: 9
+      pivot: {x: 0.54196644, y: 0.13866273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1046d8c8223e571e0800000000000000
+      internalID: -2200603105374149631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5Shooting_0Degree_R
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 625
+        width: 43
+        height: 39
+      alignment: 9
+      pivot: {x: 0.44142044, y: 0.0909596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ea04d2cb282acb0800000000000000
+      internalID: -4854173703627297124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

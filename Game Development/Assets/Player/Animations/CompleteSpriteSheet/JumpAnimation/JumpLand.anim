@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Slicing_Updated
+  m_Name: JumpLand
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -5966913052429510419, guid: 126834d0ea9771d4c93ae1bf28f7e849,
+      value: {fileID: -8617269577385938704, guid: f370ca82c0d7a7a49b5eb767c2e5db40,
         type: 3}
     - time: 0.083333336
-      value: {fileID: 7247399107765849291, guid: 126834d0ea9771d4c93ae1bf28f7e849,
-        type: 3}
-    - time: 0.16666667
-      value: {fileID: 3381450776084928624, guid: 126834d0ea9771d4c93ae1bf28f7e849,
-        type: 3}
-    - time: 0.25
-      value: {fileID: -1439773412651042461, guid: 126834d0ea9771d4c93ae1bf28f7e849,
+      value: {fileID: -6990695295909104266, guid: f370ca82c0d7a7a49b5eb767c2e5db40,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -50,16 +44,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -5966913052429510419, guid: 126834d0ea9771d4c93ae1bf28f7e849, type: 3}
-    - {fileID: 7247399107765849291, guid: 126834d0ea9771d4c93ae1bf28f7e849, type: 3}
-    - {fileID: 3381450776084928624, guid: 126834d0ea9771d4c93ae1bf28f7e849, type: 3}
-    - {fileID: -1439773412651042461, guid: 126834d0ea9771d4c93ae1bf28f7e849, type: 3}
+    - {fileID: -8617269577385938704, guid: f370ca82c0d7a7a49b5eb767c2e5db40, type: 3}
+    - {fileID: -6990695295909104266, guid: f370ca82c0d7a7a49b5eb767c2e5db40, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.33333334
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -78,11 +70,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.083333336
-    functionName: Slash
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

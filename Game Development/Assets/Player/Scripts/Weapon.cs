@@ -9,7 +9,6 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public Transform meelePoint;
     public GameObject bulletPrefab;
-    public PlayerStats stats;
     public float bulletSpeed = 5f;
     public float proyectileTimeToLive = 3f;
     public void Shoot()
@@ -35,7 +34,7 @@ public class Weapon : MonoBehaviour
             {
                 listOfCollisions[0].GetComponent<KnockBack>().knockbackDir = false;
             }
-             listOfCollisions[0].GetComponent<StateController>().enemyManager.TakeDamage((int)stats.playerDamage);
+             listOfCollisions[0].GetComponent<StateController>().enemyManager.TakeDamage((int)PlayerManager.Instance.stats.playerDamage);
 
         }
     }
@@ -44,7 +43,7 @@ public class Weapon : MonoBehaviour
     {
         Bullet prefab = bulletPrefab.GetComponent<Bullet>();
 
-        prefab?.setBulletDamage((int)stats.playerRangeDamage);
+        prefab?.setBulletDamage((int)PlayerManager.Instance.stats.playerRangeDamage);
         prefab?.setBulletSpeed(bulletSpeed);
         prefab?.setTimeToLive(proyectileTimeToLive);
     }
@@ -56,6 +55,6 @@ public class Weapon : MonoBehaviour
         {
             return;
         }
-        Gizmos.DrawWireSphere(meelePoint.position, stats.attackDistance);
+        Gizmos.DrawWireSphere(meelePoint.position, PlayerManager.Instance.stats.attackDistance);
     }
 }
