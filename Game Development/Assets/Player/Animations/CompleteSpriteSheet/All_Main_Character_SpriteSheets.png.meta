@@ -849,7 +849,7 @@ TextureImporter:
       name: Aggro_5
       rect:
         serializedVersion: 2
-        x: 118
+        x: 117
         y: 891
         width: 19
         height: 30
@@ -1543,9 +1543,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 619
-        y: 654
+        y: 648
         width: 25
-        height: 22
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1564,9 +1564,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 654
-        y: 652
+        y: 648
         width: 22
-        height: 22
+        height: 26
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1858,9 +1858,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 649
-        y: 621
+        y: 616
         width: 26
-        height: 23
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2026,9 +2026,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 553
-        y: 586
+        y: 582
         width: 25
-        height: 24
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
