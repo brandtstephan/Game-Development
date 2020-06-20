@@ -7,7 +7,7 @@ public class PlayerAttackManager : MonoBehaviour
     private float nextAttackTime = 0f;
     private void Update()
     {
-        PlayerManager.Instance.isAttacking = true;
+        PlayerManager.Instance.isAttacking = false;
         DoAttack();   
     }
     public void DoAttack()
@@ -34,16 +34,13 @@ public class PlayerAttackManager : MonoBehaviour
                         break;
 
                 }
-
             }
-
         }
         else
         {
-            PlayerManager.Instance.isAttacking = false;
+            PlayerManager.Instance.isAttacking = true;
         }
     }
-
     private void MeleeAttack()
     {
         if (Input.GetKey(KeyCode.Mouse0))
@@ -55,12 +52,14 @@ public class PlayerAttackManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            PlayerManager.Instance.animator.SetTrigger("MagicAttack");
+            PlayerManager.Instance.isAttacking = true;
+            PlayerManager.Instance.animator.SetTrigger("MagicAttack");  
             ResetAttackTimer();
         }
         if (Input.GetKey(KeyCode.Mouse1))
         {
-            PlayerManager.Instance.animator.SetTrigger("Attack");
+            PlayerManager.Instance.isAttacking = true;
+            PlayerManager.Instance.animator.SetTrigger("Attack");           
             ResetAttackTimer();
         }
     }
@@ -76,6 +75,5 @@ public class PlayerAttackManager : MonoBehaviour
     private void ResetAttackTimer()
     {
         nextAttackTime = Time.time + (1f / PlayerManager.Instance.stats.attackRate);
-        PlayerManager.Instance.isAttacking = true;
     }
 }

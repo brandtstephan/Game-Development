@@ -7,7 +7,6 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
 
     public Transform firePoint;
-    public Transform meelePoint;
     public GameObject bulletPrefab;
     public float bulletSpeed = 5f;
     public float proyectileTimeToLive = 3f;
@@ -19,23 +18,19 @@ public class Weapon : MonoBehaviour
 
     public void Slash()
     {
-        ContactFilter2D filter = new ContactFilter2D();
-        filter.SetLayerMask(LayerMask.GetMask("Enemy"));
-        List<Collider2D> listOfCollisions = new List<Collider2D>();
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PlayerManager.Instance.attackPoint.transform.position, PlayerManager.Instance.stats.attackDistance, LayerMask.GetMask("Enemy"));
 
-        if (Physics2D.OverlapCollider(meelePoint.transform.GetComponent<Collider2D>(),filter,listOfCollisions) > 0)
+        foreach (Collider2D enemy in hitEnemies)
         {
-            listOfCollisions[0].GetComponent<KnockBack>().knockbackCount = listOfCollisions[0].GetComponent<KnockBack>().knockbackLenght;
-            if (listOfCollisions[0].transform.position.x < transform.position.x)
+            if (enemy.transform.position.x < transform.position.x)
             {
-                listOfCollisions[0].GetComponent<KnockBack>().knockbackDir = true;
+                enemy.GetComponent<KnockBack>().knockbackDir = true;
             }
             else
             {
-                listOfCollisions[0].GetComponent<KnockBack>().knockbackDir = false;
+                enemy.GetComponent<KnockBack>().knockbackDir = false;
             }
-             listOfCollisions[0].GetComponent<StateController>().enemyManager.TakeDamage((int)PlayerManager.Instance.stats.playerDamage);
-
+            enemy.GetComponent<StateController>().enemyManager.TakeDamage((int)PlayerManager.Instance.stats.playerDamage);
         }
     }
 
@@ -46,15 +41,5 @@ public class Weapon : MonoBehaviour
         prefab?.setBulletDamage((int)PlayerManager.Instance.stats.playerRangeDamage);
         prefab?.setBulletSpeed(bulletSpeed);
         prefab?.setTimeToLive(proyectileTimeToLive);
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-
-        if (meelePoint == null)
-        {
-            return;
-        }
-        Gizmos.DrawWireSphere(meelePoint.position, PlayerManager.Instance.stats.attackDistance);
     }
 }

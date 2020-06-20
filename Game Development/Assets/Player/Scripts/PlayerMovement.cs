@@ -35,7 +35,20 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Update()
 	{
-		horizontalMovement = Input.GetAxisRaw("Horizontal");	
+        if (PlayerManager.Instance.isAttacking)
+        {
+			horizontalMovement = 0f;
+        }
+        else
+        {
+			horizontalMovement = Input.GetAxisRaw("Horizontal");
+
+			if (Input.GetButton("Jump"))
+			{
+				jump = true;
+			}
+		}
+			
 		ManageAnimations();
 	}
 	private void FixedUpdate()
@@ -47,11 +60,6 @@ public class PlayerMovement : MonoBehaviour
 		groundLayer.SetLayerMask(LayerMask.GetMask("Ground"));
 
 		isGrounded = (Physics2D.OverlapCollider(groundCollider, groundLayer, listOfColliders) > 0);	
-
-		if (Input.GetButton("Jump"))
-		{
-			jump = true;
-		}
 
         Move();
         Jump(jump);
@@ -109,7 +117,6 @@ public class PlayerMovement : MonoBehaviour
 			}
 
 		}
-
 		if (Input.GetKeyUp(KeyCode.Space))
 		{
 			isJumping = false;
@@ -132,16 +139,6 @@ public class PlayerMovement : MonoBehaviour
 	{
 		isFacingRight = !isFacingRight;
 		transform.Rotate(0f,180f,0f);
-	}
-
-    private void OnDrawGizmos()
-    {
-		/*Gizmos.color = Color.green;
-		Gizmos.DrawWireSphere(m_GroundCheck.position, k_GroundedRadius);
-
-		Gizmos.color = Color.red;
-		Gizmos.DrawWireSphere(m_CeilingCheck.position, k_CeilingRadius);
-		*/
 	}
 
 	private void RollDodge()

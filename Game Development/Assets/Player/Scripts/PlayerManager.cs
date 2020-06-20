@@ -15,7 +15,7 @@ public class PlayerManager : MonoBehaviour
     public ParticleSystem dust;
     public Rigidbody2D playerRigidBody;
     public Weapon weapon;
-
+    public Transform attackPoint;
     public static PlayerManager Instance{ get; set;}
 
     public bool isAttacking = false;
@@ -80,5 +80,18 @@ public class PlayerManager : MonoBehaviour
     public void CreateDust()
     {
         dust.Play();
+    }
+
+    private void OnDrawGizmos()
+    {
+        /*Gizmos.color = Color.green;
+		Gizmos.DrawWireSphere(m_GroundCheck.position, k_GroundedRadius);
+
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere(m_CeilingCheck.position, k_CeilingRadius);
+		*/
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, stats.attackDistance);
+        
     }
 }

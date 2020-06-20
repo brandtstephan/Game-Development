@@ -41242,6 +41242,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1539012749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8200185428092469771, guid: bd490bdd9548d42499f99145fb912662,
+    type: 3}
+  m_PrefabInstance: {fileID: 8337558434084268723}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562576640
 GameObject:
   m_ObjectHideFlags: 0
@@ -44419,6 +44425,11 @@ PrefabInstance:
       propertyPath: playerRigidBody
       value: 
       objectReference: {fileID: 1056271938}
+    - target: {fileID: 5198847013098003817, guid: bd490bdd9548d42499f99145fb912662,
+        type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 1539012749}
     - target: {fileID: 5198847013098003818, guid: bd490bdd9548d42499f99145fb912662,
         type: 3}
       propertyPath: jumpTime
@@ -44438,6 +44449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: smoothAirControll
       value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198847013098003821, guid: bd490bdd9548d42499f99145fb912662,
+        type: 3}
+      propertyPath: knockback
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5198847013098003828, guid: bd490bdd9548d42499f99145fb912662,
         type: 3}
@@ -44612,7 +44628,7 @@ PrefabInstance:
     - target: {fileID: 8200185428092469771, guid: bd490bdd9548d42499f99145fb912662,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.185
+      value: 0.14
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8200185428092469768, guid: bd490bdd9548d42499f99145fb912662, type: 3}
