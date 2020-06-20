@@ -13,7 +13,7 @@ public class PlayerManager : MonoBehaviour
     public Animator animator;
     [HideInInspector]public bool changeAttackType = false;
     public ParticleSystem dust;
-
+    public Rigidbody2D playerRigidBody;
     public Weapon weapon;
 
     public static PlayerManager Instance{ get; set;}

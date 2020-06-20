@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
 	//Collider Values				
 	public Collider2D ceilingCollider;											
 	public BoxCollider2D groundCollider;												
-	public Rigidbody2D rigidBody;
 
 	private bool isGrounded;
 
@@ -36,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Update()
 	{
-		horizontalMovement = Input.GetAxisRaw("Horizontal");
+		horizontalMovement = Input.GetAxisRaw("Horizontal");	
 		ManageAnimations();
 	}
 	private void FixedUpdate()
@@ -54,28 +53,33 @@ public class PlayerMovement : MonoBehaviour
 			jump = true;
 		}
 
-		Move();
-		Jump(jump);
-		FlipDirection();
-		RollDodge();
+        Move();
+        Jump(jump);
+        FlipDirection();
+        RollDodge();
 
-		jump = false;
+        jump = false;
 	}
 
     private void Move()
 	{
 		if (isGrounded)
 		{
-			Vector3 targetVelocity = new Vector2(horizontalMovement * PlayerManager.Instance.stats.playerRunSpeed, rigidBody.velocity.y);
+			Vector3 targetVelocity = new Vector2(horizontalMovement * PlayerManager.Instance.stats.playerRunSpeed, PlayerManager.Instance.playerRigidBody.velocity.y);
 			
 			if (knockbackManager.knockbackCount <= 0)
 			{
-				rigidBody.velocity = targetVelocity;
+				PlayerManager.Instance.playerRigidBody.velocity = targetVelocity;
 			}
 			else
 			{
-				knockbackManager.ApplyKnockBack(ref rigidBody);
+				knockbackManager.ApplyKnockBack(ref PlayerManager.Instance.playerRigidBody);
 			}
+        }
+        else
+        {
+			Vector3 targetVelocity = new Vector2(horizontalMovement * (PlayerManager.Instance.stats.playerRunSpeed/2f), PlayerManager.Instance.playerRigidBody.velocity.y);
+			PlayerManager.Instance.playerRigidBody.velocity = Vector3.SmoothDamp(PlayerManager.Instance.playerRigidBody.velocity, targetVelocity, ref currentVelocity, smoothAirControll);
 		}
 	}
 
@@ -89,14 +93,14 @@ public class PlayerMovement : MonoBehaviour
 			isJumping = true;
 			jumpTimeCounter = jumpTime;
 
-			rigidBody.velocity = new Vector2(horizontalMovement * (PlayerManager.Instance.stats.playerRunSpeed / 1.5f), PlayerManager.Instance.stats.playerJumpForce);
+			PlayerManager.Instance.playerRigidBody.velocity = new Vector2(horizontalMovement * (PlayerManager.Instance.stats.playerRunSpeed / 1.5f), PlayerManager.Instance.stats.playerJumpForce);
 
 		}
 		if (Input.GetKey(KeyCode.Space) && isJumping)
 		{
 			if (jumpTimeCounter > 0)
 			{
-				rigidBody.velocity = new Vector2(horizontalMovement * (PlayerManager.Instance.stats.playerRunSpeed / 1.5f), PlayerManager.Instance.stats.playerJumpForce);
+				PlayerManager.Instance.playerRigidBody.velocity = new Vector2(horizontalMovement * (PlayerManager.Instance.stats.playerRunSpeed / 1.5f), PlayerManager.Instance.stats.playerJumpForce);
 				jumpTimeCounter -= Time.deltaTime;
 			}
 			else

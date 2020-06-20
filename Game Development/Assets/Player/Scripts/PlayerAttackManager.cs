@@ -7,6 +7,7 @@ public class PlayerAttackManager : MonoBehaviour
     private float nextAttackTime = 0f;
     private void Update()
     {
+        PlayerManager.Instance.isAttacking = true;
         DoAttack();   
     }
     public void DoAttack()

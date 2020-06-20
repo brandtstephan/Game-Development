@@ -26,4 +26,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   distanceJumpAction: 0.48
-  jumpForce: 400
+  jumpForce: 150
