@@ -16,6 +16,8 @@ public class PlayerManager : MonoBehaviour
     public Rigidbody2D playerRigidBody;
     public Weapon weapon;
     public Transform attackPoint;
+
+    public DamagePopUp hitPopupPrefab;
     public static PlayerManager Instance{ get; set;}
 
     public bool isAttacking = false;

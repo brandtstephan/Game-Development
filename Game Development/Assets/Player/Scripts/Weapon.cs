@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 5f;
     public float proyectileTimeToLive = 3f;
+
     public void Shoot()
     {
         SetBulletValues();
@@ -22,6 +23,10 @@ public class Weapon : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
+            Vector3 enemyPosition = enemy.GetComponent<Transform>().position;
+            
+            PlayerManager.Instance.hitPopupPrefab.Create(enemyPosition, false);
+
             if (enemy.transform.position.x < transform.position.x)
             {
                 enemy.GetComponent<KnockBack>().knockbackDir = true;

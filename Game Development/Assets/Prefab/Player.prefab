@@ -5173,6 +5173,7 @@ MonoBehaviour:
   dust: {fileID: 6262558395283866843}
   playerRigidBody: {fileID: 0}
   weapon: {fileID: 5198847013098003823}
+  attackPoint: {fileID: 0}
   isAttacking: 0
 --- !u!114 &5198847013098003822
 MonoBehaviour:
@@ -5199,7 +5200,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 5198847012694035435}
-  meelePoint: {fileID: 8200185428092469771}
   bulletPrefab: {fileID: 8121973632595007594, guid: aa6c2a3b21f14bc45a191fbf78614742,
     type: 3}
   bulletSpeed: 10
@@ -5228,11 +5228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20443fbeca30d5c42a539485693f6f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockback: 3
+  knockback: 8
   knockbackCount: 0
-  knockbackLenght: 0.1
+  knockbackLenght: 0.02
   knockbackDir: 1
-  knockbackYAxis: 1
+  knockbackYAxis: 0.45
 --- !u!1 &8200185428092469769
 GameObject:
   m_ObjectHideFlags: 0

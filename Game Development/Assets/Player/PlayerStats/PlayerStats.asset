@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
   playerDirection: {x: 0, y: 0, z: 0}
-  playerCurrentHealth: 100
+  playerCurrentHealth: 0
   playerMaximumHealth: 100
-  playerDamage: 50
+  playerDamage: 100
   playerRangeDamage: 15
   lookRadius: 0
   attackDistance: 0.77

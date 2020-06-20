@@ -44329,6 +44329,12 @@ PrefabInstance:
       propertyPath: attackPoint
       value: 
       objectReference: {fileID: 1539012749}
+    - target: {fileID: 5198847013098003817, guid: bd490bdd9548d42499f99145fb912662,
+        type: 3}
+      propertyPath: hitPopupPrefab
+      value: 
+      objectReference: {fileID: 7873556882712808451, guid: 272afbe4f7e0b9949a868db7897df0c1,
+        type: 3}
     - target: {fileID: 5198847013098003818, guid: bd490bdd9548d42499f99145fb912662,
         type: 3}
       propertyPath: jumpTime
@@ -44352,7 +44358,12 @@ PrefabInstance:
     - target: {fileID: 5198847013098003821, guid: bd490bdd9548d42499f99145fb912662,
         type: 3}
       propertyPath: knockback
-      value: 10
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198847013098003821, guid: bd490bdd9548d42499f99145fb912662,
+        type: 3}
+      propertyPath: knockbackYAxis
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 5198847013098003828, guid: bd490bdd9548d42499f99145fb912662,
         type: 3}
