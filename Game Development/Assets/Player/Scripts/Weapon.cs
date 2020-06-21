@@ -24,8 +24,10 @@ public class Weapon : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             Vector3 enemyPosition = enemy.GetComponent<Transform>().position;
-            
-            PlayerManager.Instance.hitPopupPrefab.Create(enemyPosition, false);
+
+            Vector3 enemyTranslatedPosition = new Vector3(enemyPosition.x, enemyPosition.y + 0.5f, 0f);
+
+            PlayerManager.Instance.hitPopupPrefab.Create(enemyTranslatedPosition, false);
 
             if (enemy.transform.position.x < transform.position.x)
             {

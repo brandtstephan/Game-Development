@@ -29,7 +29,7 @@ public class DamagePopUp : MonoBehaviour
         textMesh.color = textColor;
         disappearTimer = DISAPPEAR_TIMER_MAX;
 
-        moveVector = new Vector3(1,2) * 30f;
+        moveVector = new Vector3(1,5) * 30f; 
     }
 
     public void Create(Vector3 position, bool isCrit)
