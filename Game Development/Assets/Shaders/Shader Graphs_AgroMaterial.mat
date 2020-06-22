@@ -10,7 +10,7 @@ Material:
   m_Name: Shader Graphs_AgroMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 7eaeae36504ebc0438a045b8aee82232,
     type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
