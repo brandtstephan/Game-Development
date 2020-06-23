@@ -27,17 +27,19 @@ public class Weapon : MonoBehaviour
 
             Vector3 enemyTranslatedPosition = new Vector3(enemyPosition.x, enemyPosition.y + 0.5f, 0f);
 
-            PlayerManager.Instance.hitPopupPrefab.Create(enemyTranslatedPosition, false);
-
             if (enemy.transform.position.x < transform.position.x)
             {
                 enemy.GetComponent<KnockBack>().knockbackDir = true;
+                PlayerManager.Instance.hitPopupPrefab.Create(enemyTranslatedPosition, false, -1f);
             }
             else
             {
                 enemy.GetComponent<KnockBack>().knockbackDir = false;
+                PlayerManager.Instance.hitPopupPrefab.Create(enemyTranslatedPosition, false, 1f);
             }
+
             enemy.GetComponent<StateController>().enemyManager.TakeDamage((int)PlayerManager.Instance.stats.playerDamage);
+            
         }
     }
 

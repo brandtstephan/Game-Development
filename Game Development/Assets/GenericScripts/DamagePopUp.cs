@@ -12,7 +12,13 @@ public class DamagePopUp : MonoBehaviour
     public float textSize = 10f;
     private const float DISAPPEAR_TIMER_MAX = .5f;
     private Vector3 moveVector;
+    public bool isCrit;
+    public float dir;
 
+    public void Start()
+    {
+        SetUp(isCrit);
+    }
     public void SetUp(bool isCrit)
     {
         if (isCrit)
@@ -29,12 +35,13 @@ public class DamagePopUp : MonoBehaviour
         textMesh.color = textColor;
         disappearTimer = DISAPPEAR_TIMER_MAX;
 
-        moveVector = new Vector3(1,5) * 30f; 
+        moveVector = new Vector3(dir, 1) * 10;
     }
 
-    public void Create(Vector3 position, bool isCrit)
+    public void Create(Vector3 position, bool isCrit, float dir)
     {
-        SetUp(isCrit);
+        this.isCrit = isCrit;
+        this.dir = dir;
         Instantiate(popUp, position, Quaternion.identity);
     }
 
@@ -43,23 +50,26 @@ public class DamagePopUp : MonoBehaviour
         popUp.transform.position += moveVector * Time.deltaTime;
         moveVector -= moveVector * 8f * Time.deltaTime;
 
+
+
         if (disappearTimer > DISAPPEAR_TIMER_MAX * .5f)
         {
-            float increaseScaleAmount = 0.3f;
+            float increaseScaleAmount = 0.4f;
             transform.localScale += Vector3.one * increaseScaleAmount * Time.deltaTime;
         }
         else
         {
-            float increaseScaleAmount = 0.3f;
+            float increaseScaleAmount = 0.4f;
             transform.localScale -= Vector3.one * increaseScaleAmount * Time.deltaTime;
         }
 
         disappearTimer -= Time.deltaTime;
-
+       
         if (disappearTimer < 0)
         {
-            float disappearSpeed = 3f;
+            float disappearSpeed = -3f;
             textColor.a = disappearSpeed * Time.deltaTime;
+
             textMesh.color = textColor;
 
             if(textColor.a < 0)
