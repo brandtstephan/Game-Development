@@ -1,0 +1,1916 @@
+fileFormatVersion: 2
+guid: 2dffae254eba50e47acbe1766363bd1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6594025776406260726
+    second: Tree EXTRA_0
+  - first:
+      213: -9094066264838888076
+    second: Tree EXTRA_1
+  - first:
+      213: -5665540241957749204
+    second: Tree EXTRA_2
+  - first:
+      213: 4149588965729051451
+    second: Tree EXTRA_3
+  - first:
+      213: 7235947146246824415
+    second: Tree EXTRA_4
+  - first:
+      213: 9013148984807090864
+    second: Tree EXTRA_5
+  - first:
+      213: 5315290110109869693
+    second: Tree EXTRA_6
+  - first:
+      213: -8586142224420803830
+    second: Tree EXTRA_7
+  - first:
+      213: 8032484698884149855
+    second: Tree EXTRA_8
+  - first:
+      213: -4420104721389013066
+    second: Tree EXTRA_9
+  - first:
+      213: 7847942843601847683
+    second: Tree EXTRA_10
+  - first:
+      213: 1618056071184380951
+    second: Tree EXTRA_11
+  - first:
+      213: -3899738252195811209
+    second: Tree EXTRA_12
+  - first:
+      213: 3204545149918419616
+    second: Tree EXTRA_13
+  - first:
+      213: 6315745205964039009
+    second: Tree EXTRA_14
+  - first:
+      213: 6808806862354274986
+    second: Tree EXTRA_15
+  - first:
+      213: 7632674842523715586
+    second: Tree EXTRA_16
+  - first:
+      213: 6363936611986563555
+    second: Tree EXTRA_17
+  - first:
+      213: -6896292280770717427
+    second: Tree EXTRA_18
+  - first:
+      213: -308282539447322508
+    second: Tree EXTRA_19
+  - first:
+      213: 5486979502644408172
+    second: Tree EXTRA_20
+  - first:
+      213: -3576916166152318784
+    second: Tree EXTRA_21
+  - first:
+      213: 3310423962452038794
+    second: Tree EXTRA_22
+  - first:
+      213: 7878529444323524531
+    second: Tree EXTRA_23
+  - first:
+      213: -7189954652839255737
+    second: Tree EXTRA_24
+  - first:
+      213: 7372298503681699939
+    second: Tree EXTRA_25
+  - first:
+      213: -1773489747883978252
+    second: Tree EXTRA_26
+  - first:
+      213: 3689329071060459542
+    second: Tree EXTRA_27
+  - first:
+      213: -6145292943743480204
+    second: Tree EXTRA_28
+  - first:
+      213: -4626820621315313791
+    second: Tree EXTRA_29
+  - first:
+      213: 8405519070737225566
+    second: Tree EXTRA_30
+  - first:
+      213: 3696964736532487451
+    second: Tree EXTRA_31
+  - first:
+      213: -4605276658366713800
+    second: Tree EXTRA_32
+  - first:
+      213: 9003826329444264306
+    second: Tree EXTRA_33
+  - first:
+      213: 1042531860583698378
+    second: Tree EXTRA_34
+  - first:
+      213: 6273674839899416844
+    second: Tree EXTRA_35
+  - first:
+      213: -1326438301775388963
+    second: Tree EXTRA_36
+  - first:
+      213: 4209752937769117817
+    second: Tree EXTRA_37
+  - first:
+      213: 1288613549342698126
+    second: Tree EXTRA_38
+  - first:
+      213: -2178546233967221189
+    second: Tree EXTRA_39
+  - first:
+      213: -2274882868710571496
+    second: Tree EXTRA_40
+  - first:
+      213: -4470392020664853328
+    second: Tree EXTRA_41
+  - first:
+      213: -933780651774390881
+    second: Tree EXTRA_42
+  - first:
+      213: -7949983721280543507
+    second: Tree EXTRA_43
+  - first:
+      213: -5658409934837258029
+    second: Tree EXTRA_44
+  - first:
+      213: 3206376975640712448
+    second: Tree EXTRA_45
+  - first:
+      213: 1858524819244382493
+    second: Tree EXTRA_46
+  - first:
+      213: 7366823146685156409
+    second: Tree EXTRA_47
+  - first:
+      213: -6258270552851116691
+    second: Tree EXTRA_48
+  - first:
+      213: 4381831456568033143
+    second: Tree EXTRA_49
+  - first:
+      213: 8431945844261784433
+    second: Tree EXTRA_50
+  - first:
+      213: 8858132593334079802
+    second: Tree EXTRA_51
+  - first:
+      213: -5795990504347893530
+    second: Tree EXTRA_52
+  - first:
+      213: -8319514515795430588
+    second: Tree EXTRA_53
+  - first:
+      213: -3127104352346159477
+    second: Tree EXTRA_54
+  - first:
+      213: -287348432568676768
+    second: Tree EXTRA_55
+  - first:
+      213: 8183405997365298090
+    second: Tree EXTRA_56
+  - first:
+      213: 5907906653829980212
+    second: Tree EXTRA_57
+  - first:
+      213: 8475170594946429025
+    second: Tree EXTRA_58
+  - first:
+      213: -1205928819726810099
+    second: Tree EXTRA_59
+  - first:
+      213: 2444562567746639393
+    second: Tree EXTRA_60
+  - first:
+      213: 5662674250056238559
+    second: Tree EXTRA_61
+  - first:
+      213: -7147150086585785866
+    second: Tree EXTRA_62
+  - first:
+      213: 8415057056021878001
+    second: Tree EXTRA_63
+  - first:
+      213: 1491180639035409331
+    second: Tree EXTRA_64
+  - first:
+      213: 2848174394120201312
+    second: Tree EXTRA_65
+  - first:
+      213: 5664100349576407477
+    second: Tree EXTRA_66
+  - first:
+      213: 3009168538827324259
+    second: Tree EXTRA_67
+  - first:
+      213: 6571892009042838579
+    second: Tree EXTRA_68
+  - first:
+      213: 7931235102291105826
+    second: Tree EXTRA_69
+  - first:
+      213: -7654064289981860809
+    second: Tree EXTRA_70
+  - first:
+      213: -3229232499777063086
+    second: Tree EXTRA_71
+  - first:
+      213: 1773982871173026982
+    second: Tree EXTRA_72
+  - first:
+      213: 4713278673708685875
+    second: Tree EXTRA_73
+  - first:
+      213: -7991292810638680154
+    second: Tree EXTRA_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tree EXTRA_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1280
+        width: 122
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbe67ac18fa28b50800000000000000
+      internalID: 6594025776406260726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1280
+        width: 122
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4752a602ae26bc180800000000000000
+      internalID: -9094066264838888076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1281
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e7d61da25ff51b0800000000000000
+      internalID: -5665540241957749204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1281
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33292acd2d469930800000000000000
+      internalID: 4149588965729051451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1226
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd12b81879f3b6460800000000000000
+      internalID: 7235947146246824415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1226
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba691b7f33251d70800000000000000
+      internalID: 9013148984807090864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1226
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76ee3b8134b3c940800000000000000
+      internalID: 5315290110109869693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1225
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b6a626325e7d880800000000000000
+      internalID: -8586142224420803830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1224
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5210c4964e197f60800000000000000
+      internalID: 8032484698884149855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1224
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7b493bc22a8a2c0800000000000000
+      internalID: -4420104721389013066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1224
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3850572af6e79ec60800000000000000
+      internalID: 7847942843601847683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1224
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714fb958c6d747610800000000000000
+      internalID: 1618056071184380951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_12
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1224
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770bdd8a8b851e9c0800000000000000
+      internalID: -3899738252195811209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1225
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa969fd5d4d87c20800000000000000
+      internalID: 3204545149918419616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1183
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163ec557dc806a750800000000000000
+      internalID: 6315745205964039009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1185
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa5ed644cdbd7e50800000000000000
+      internalID: 6808806862354274986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1185
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208cfa26455bce960800000000000000
+      internalID: 7632674842523715586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1184
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1ef8a81ae315850800000000000000
+      internalID: 6363936611986563555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1183
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09946175b27b40a0800000000000000
+      internalID: -6896292280770717427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_19
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1185
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47879c9e9a2c8bbf0800000000000000
+      internalID: -308282539447322508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_20
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1185
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f28f059caa52c40800000000000000
+      internalID: 5486979502644408172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_21
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1184
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0932db2bd3c5ec0800000000000000
+      internalID: -3576916166152318784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1183
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8415e1fd0df0fd20800000000000000
+      internalID: 3310423962452038794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1185
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bffb5199c8265d60800000000000000
+      internalID: 7878529444323524531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_24
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1185
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74169565656283c90800000000000000
+      internalID: -7189954652839255737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1184
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3607712dd6aaf4660800000000000000
+      internalID: 7372298503681699939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1183
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1149c787c4367e0800000000000000
+      internalID: -1773489747883978252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_27
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1185
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610a4144e31233330800000000000000
+      internalID: 3689329071060459542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_28
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1185
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e847770a887baa0800000000000000
+      internalID: -6145292943743480204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_29
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1184
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f6c0ba82b3acfb0800000000000000
+      internalID: -4626820621315313791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1169
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57501c7f0766a470800000000000000
+      internalID: 8405519070737225566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1169
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d1a2c27d14e4330800000000000000
+      internalID: 3696964736532487451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1170
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83077ad6745c610c0800000000000000
+      internalID: -4605276658366713800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_33
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1078
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a5d1a75404fc70800000000000000
+      internalID: 9003826329444264306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1078
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf4e112431d77e00800000000000000
+      internalID: 1042531860583698378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_35
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1140
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09a28c0702901750800000000000000
+      internalID: 6273674839899416844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_36
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1127
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde943e646b879de0800000000000000
+      internalID: -1326438301775388963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_37
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1127
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a2ef1efb0c6a30800000000000000
+      internalID: 4209752937769117817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_38
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1126
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aa35d123312e110800000000000000
+      internalID: 1288613549342698126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_39
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1075
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b366e9d1ebf34c1e0800000000000000
+      internalID: -2178546233967221189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_40
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1075
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81282e0751efd60e0800000000000000
+      internalID: -2274882868710571496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 946
+        width: 161
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcd781742af5f1c0800000000000000
+      internalID: -4470392020664853328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 946
+        width: 161
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dcad0d17b8a03f0800000000000000
+      internalID: -933780651774390881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_43
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1026
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de46fe22debfba190800000000000000
+      internalID: -7949983721280543507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_44
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1026
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8eb70d42a4971b0800000000000000
+      internalID: -5658409934837258029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_45
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 988
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0055e090fd65f7c20800000000000000
+      internalID: 3206376975640712448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 988
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19fe49e97ecac910800000000000000
+      internalID: 1858524819244382493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_47
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 951
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c4b4dee963c3660800000000000000
+      internalID: 7366823146685156409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_48
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 951
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d850507182629a0800000000000000
+      internalID: -6258270552851116691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 817
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fbe5a6e746fcc30800000000000000
+      internalID: 4381831456568033143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 818
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b0e8c221a440570800000000000000
+      internalID: 8431945844261784433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 671
+        width: 167
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31dcf649a86eea70800000000000000
+      internalID: 8858132593334079802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_52
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 671
+        width: 167
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e08ec24851809fa0800000000000000
+      internalID: -5795990504347893530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_53
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 613
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443be4660a52b8c80800000000000000
+      internalID: -8319514515795430588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_54
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 614
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8644ded82b4a94d0800000000000000
+      internalID: -3127104352346159477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 614
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e8afd7f12230cf0800000000000000
+      internalID: -287348432568676768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 614
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa382c5a56c419170800000000000000
+      internalID: 8183405997365298090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_57
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 551
+        width: 149
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430e3bbdcc91df150800000000000000
+      internalID: 5907906653829980212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_58
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 552
+        width: 149
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1603e92b0cadd9570800000000000000
+      internalID: 8475170594946429025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 491
+        width: 169
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0407c3b02ea34fe0800000000000000
+      internalID: -1205928819726810099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_60
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 492
+        width: 169
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12651c914b4dce120800000000000000
+      internalID: 2444562567746639393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_61
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 395
+        width: 154
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd58a517a3cd59e40800000000000000
+      internalID: 5662674250056238559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_62
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 394
+        width: 165
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1e6ac0dd830dc90800000000000000
+      internalID: -7147150086585785866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_63
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 307
+        width: 165
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f414dcbec948c470800000000000000
+      internalID: 8415057056021878001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_64
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 352
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b345adf3ecb1b410800000000000000
+      internalID: 1491180639035409331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 311
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064e5eb658fb68720800000000000000
+      internalID: 2848174394120201312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_66
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 311
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9eaac124dea9e40800000000000000
+      internalID: 5664100349576407477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_67
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 311
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b7512c7d6b2c920800000000000000
+      internalID: 3009168538827324259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_68
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 311
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3340a3d76fc043b50800000000000000
+      internalID: 6571892009042838579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_69
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 144
+        width: 163
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2289b26dd48611e60800000000000000
+      internalID: 7931235102291105826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_70
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 145
+        width: 163
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734f0abc41d47c590800000000000000
+      internalID: -7654064289981860809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_71
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 70
+        width: 208
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25734a196267f23d0800000000000000
+      internalID: -3229232499777063086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_72
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 79
+        width: 118
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a455e9b5047e9810800000000000000
+      internalID: 1773982871173026982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_73
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 4
+        width: 208
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a94d15bfde86140800000000000000
+      internalID: 4713278673708685875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree EXTRA_74
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 118
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af9fb54789391190800000000000000
+      internalID: -7991292810638680154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
