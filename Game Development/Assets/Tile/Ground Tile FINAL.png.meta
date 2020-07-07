@@ -1,0 +1,3455 @@
+fileFormatVersion: 2
+guid: acd6444475a7eab42859e64eb60bd5ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8507781732729720851
+    second: Ground Tile FINAL_0
+  - first:
+      213: -785316186451630308
+    second: Ground Tile FINAL_1
+  - first:
+      213: -361517652379258026
+    second: Ground Tile FINAL_2
+  - first:
+      213: 1173622630954674310
+    second: Ground Tile FINAL_3
+  - first:
+      213: -952708366269181149
+    second: Ground Tile FINAL_4
+  - first:
+      213: -6772125832126799503
+    second: Ground Tile FINAL_5
+  - first:
+      213: 3863401704648948260
+    second: Ground Tile FINAL_6
+  - first:
+      213: 3079861069748587570
+    second: Ground Tile FINAL_7
+  - first:
+      213: -4338156270252012006
+    second: Ground Tile FINAL_8
+  - first:
+      213: -3752687642152671225
+    second: Ground Tile FINAL_9
+  - first:
+      213: -7672423710209261987
+    second: Ground Tile FINAL_10
+  - first:
+      213: -3413353057180002122
+    second: Ground Tile FINAL_11
+  - first:
+      213: 8708277298079440941
+    second: Ground Tile FINAL_12
+  - first:
+      213: -1326859520838546806
+    second: Ground Tile FINAL_13
+  - first:
+      213: -1799905561412736099
+    second: Ground Tile FINAL_14
+  - first:
+      213: -6591302021240114778
+    second: Ground Tile FINAL_15
+  - first:
+      213: -884364329046740577
+    second: Ground Tile FINAL_16
+  - first:
+      213: -424220896531585197
+    second: Ground Tile FINAL_17
+  - first:
+      213: -3398926694070710990
+    second: Ground Tile FINAL_18
+  - first:
+      213: -8817490405942016270
+    second: Ground Tile FINAL_19
+  - first:
+      213: 5964799092246430271
+    second: Ground Tile FINAL_20
+  - first:
+      213: -1658454314779972077
+    second: Ground Tile FINAL_21
+  - first:
+      213: 4143766271935324569
+    second: Ground Tile FINAL_22
+  - first:
+      213: -7250502313042110270
+    second: Ground Tile FINAL_23
+  - first:
+      213: -1061831193428222524
+    second: Ground Tile FINAL_24
+  - first:
+      213: 191807348166003273
+    second: Ground Tile FINAL_25
+  - first:
+      213: 5004101510566315776
+    second: Ground Tile FINAL_26
+  - first:
+      213: -3042468076028948867
+    second: Ground Tile FINAL_27
+  - first:
+      213: 7997090819328180949
+    second: Ground Tile FINAL_28
+  - first:
+      213: 5649922012175262358
+    second: Ground Tile FINAL_29
+  - first:
+      213: 5195667682693922887
+    second: Ground Tile FINAL_30
+  - first:
+      213: -6393481248028024251
+    second: Ground Tile FINAL_31
+  - first:
+      213: 285601807106168364
+    second: Ground Tile FINAL_32
+  - first:
+      213: 4001686632132299357
+    second: Ground Tile FINAL_33
+  - first:
+      213: 4033420003946318402
+    second: Ground Tile FINAL_34
+  - first:
+      213: -72778794607403416
+    second: Ground Tile FINAL_35
+  - first:
+      213: 3924004760896149335
+    second: Ground Tile FINAL_36
+  - first:
+      213: -7121952824409193524
+    second: Ground Tile FINAL_37
+  - first:
+      213: -2690778192065662398
+    second: Ground Tile FINAL_38
+  - first:
+      213: 8353637666248091826
+    second: Ground Tile FINAL_39
+  - first:
+      213: -1620075573076719497
+    second: Ground Tile FINAL_40
+  - first:
+      213: -2107340978457161906
+    second: Ground Tile FINAL_41
+  - first:
+      213: 3774917304467391071
+    second: Ground Tile FINAL_42
+  - first:
+      213: -6475279246988751460
+    second: Ground Tile FINAL_43
+  - first:
+      213: 3484731220948075021
+    second: Ground Tile FINAL_44
+  - first:
+      213: -2584808835281925659
+    second: Ground Tile FINAL_45
+  - first:
+      213: 2369981529213929709
+    second: Ground Tile FINAL_46
+  - first:
+      213: -8579535756299514568
+    second: Ground Tile FINAL_47
+  - first:
+      213: -5319380336520864626
+    second: Ground Tile FINAL_48
+  - first:
+      213: -1069403699897254635
+    second: Ground Tile FINAL_49
+  - first:
+      213: 2006423000924118956
+    second: Ground Tile FINAL_50
+  - first:
+      213: 2428409196305952269
+    second: Ground Tile FINAL_51
+  - first:
+      213: -6020056144900265534
+    second: Ground Tile FINAL_52
+  - first:
+      213: -3536822936731407156
+    second: Ground Tile FINAL_53
+  - first:
+      213: 1901800471513804834
+    second: Ground Tile FINAL_54
+  - first:
+      213: -6302230869184117971
+    second: Ground Tile FINAL_55
+  - first:
+      213: 7627647703492462421
+    second: Ground Tile FINAL_56
+  - first:
+      213: 4471097771492744500
+    second: Ground Tile FINAL_57
+  - first:
+      213: 3185421829259441443
+    second: Ground Tile FINAL_58
+  - first:
+      213: -9118248790665237155
+    second: Ground Tile FINAL_59
+  - first:
+      213: -8929495568938558139
+    second: Ground Tile FINAL_60
+  - first:
+      213: -257569036624019408
+    second: Ground Tile FINAL_61
+  - first:
+      213: -6064876665105555615
+    second: Ground Tile FINAL_62
+  - first:
+      213: 2791995837673938099
+    second: Ground Tile FINAL_63
+  - first:
+      213: -2607612719388015296
+    second: Ground Tile FINAL_64
+  - first:
+      213: -569014803502922625
+    second: Ground Tile FINAL_65
+  - first:
+      213: -4635994805816927527
+    second: Ground Tile FINAL_66
+  - first:
+      213: -4413498914653121985
+    second: Ground Tile FINAL_67
+  - first:
+      213: -3952274562868925391
+    second: Ground Tile FINAL_68
+  - first:
+      213: -4102109577254419854
+    second: Ground Tile FINAL_69
+  - first:
+      213: 4597511482500025145
+    second: Ground Tile FINAL_70
+  - first:
+      213: 2698952928347025177
+    second: Ground Tile FINAL_71
+  - first:
+      213: -3607307866717610555
+    second: Ground Tile FINAL_72
+  - first:
+      213: 8724643438625219253
+    second: Ground Tile FINAL_73
+  - first:
+      213: 7170682398538369749
+    second: Ground Tile FINAL_74
+  - first:
+      213: -8892626229174875907
+    second: Ground Tile FINAL_75
+  - first:
+      213: -5552612845242749357
+    second: Ground Tile FINAL_76
+  - first:
+      213: -1333757616328041986
+    second: Ground Tile FINAL_77
+  - first:
+      213: -316400986473579421
+    second: Ground Tile FINAL_78
+  - first:
+      213: -4155190274418667764
+    second: Ground Tile FINAL_79
+  - first:
+      213: -3054890554591937471
+    second: Ground Tile FINAL_80
+  - first:
+      213: 4019826271618913962
+    second: Ground Tile FINAL_81
+  - first:
+      213: -4094047555807852125
+    second: Ground Tile FINAL_82
+  - first:
+      213: 5471679917000113813
+    second: Ground Tile FINAL_83
+  - first:
+      213: -901969466872466141
+    second: Ground Tile FINAL_84
+  - first:
+      213: -6296024981667768710
+    second: Ground Tile FINAL_85
+  - first:
+      213: -3714670162386693259
+    second: Ground Tile FINAL_86
+  - first:
+      213: -475479838283608090
+    second: Ground Tile FINAL_87
+  - first:
+      213: -3198782664187961926
+    second: Ground Tile FINAL_88
+  - first:
+      213: -2597080847216432966
+    second: Ground Tile FINAL_89
+  - first:
+      213: -6495333444097458431
+    second: Ground Tile FINAL_90
+  - first:
+      213: -6302522705899862432
+    second: Ground Tile FINAL_91
+  - first:
+      213: -4152606352710241811
+    second: Ground Tile FINAL_92
+  - first:
+      213: -2934812607730584024
+    second: Ground Tile FINAL_93
+  - first:
+      213: -8280094727684251380
+    second: Ground Tile FINAL_94
+  - first:
+      213: -8356874852770850797
+    second: Ground Tile FINAL_95
+  - first:
+      213: -8235094201689837122
+    second: Ground Tile FINAL_96
+  - first:
+      213: -1244412905000789277
+    second: Ground Tile FINAL_97
+  - first:
+      213: 3206523893961452796
+    second: Ground Tile FINAL_98
+  - first:
+      213: 4951037990552723652
+    second: Ground Tile FINAL_99
+  - first:
+      213: -1915953596475483574
+    second: Ground Tile FINAL_100
+  - first:
+      213: 5762976425733713482
+    second: Ground Tile FINAL_101
+  - first:
+      213: 1103180962050816938
+    second: Ground Tile FINAL_102
+  - first:
+      213: -3671985959103534357
+    second: Ground Tile FINAL_103
+  - first:
+      213: -8649362063373797874
+    second: Ground Tile FINAL_104
+  - first:
+      213: -7559328261523433025
+    second: Ground Tile FINAL_105
+  - first:
+      213: -2659866857668505126
+    second: Ground Tile FINAL_106
+  - first:
+      213: -3516535197778333605
+    second: Ground Tile FINAL_107
+  - first:
+      213: -6067965170157733764
+    second: Ground Tile FINAL_108
+  - first:
+      213: -2252785945697654790
+    second: Ground Tile FINAL_109
+  - first:
+      213: 324695459425625352
+    second: Ground Tile FINAL_110
+  - first:
+      213: 3718572182630011250
+    second: Ground Tile FINAL_111
+  - first:
+      213: -9123162016962616532
+    second: Ground Tile FINAL_112
+  - first:
+      213: -957337097872905128
+    second: Ground Tile FINAL_113
+  - first:
+      213: -3898655130244340036
+    second: Ground Tile FINAL_114
+  - first:
+      213: -3472428877137190470
+    second: Ground Tile FINAL_115
+  - first:
+      213: -9030245857545090187
+    second: Ground Tile FINAL_116
+  - first:
+      213: -3763137254721456488
+    second: Ground Tile FINAL_117
+  - first:
+      213: -7106865638665681150
+    second: Ground Tile FINAL_118
+  - first:
+      213: 91783641968301339
+    second: Ground Tile FINAL_119
+  - first:
+      213: -2424321530712731530
+    second: Ground Tile FINAL_120
+  - first:
+      213: -650940309435358842
+    second: Ground Tile FINAL_121
+  - first:
+      213: 8983758907995938
+    second: Ground Tile FINAL_122
+  - first:
+      213: -6628916186567067547
+    second: Ground Tile FINAL_123
+  - first:
+      213: -2020382180349670117
+    second: Ground Tile FINAL_124
+  - first:
+      213: 4207980015189333731
+    second: Ground Tile FINAL_125
+  - first:
+      213: 6710141678881719504
+    second: Ground Tile FINAL_126
+  - first:
+      213: -159675909579566416
+    second: Ground Tile FINAL_127
+  - first:
+      213: -5309539350455779897
+    second: Ground Tile FINAL_128
+  - first:
+      213: 1498007690211951097
+    second: Ground Tile FINAL_129
+  - first:
+      213: -842628174444064386
+    second: Ground Tile FINAL_130
+  - first:
+      213: -4398030382482093488
+    second: Ground Tile FINAL_131
+  - first:
+      213: -7934002963687750442
+    second: Ground Tile FINAL_132
+  - first:
+      213: -7431043866054807679
+    second: Ground Tile FINAL_133
+  - first:
+      213: -1447844001334446021
+    second: Ground Tile FINAL_134
+  - first:
+      213: 3001742181049376007
+    second: Ground Tile FINAL_135
+  - first:
+      213: -6566695241348122584
+    second: Ground Tile FINAL_136
+  - first:
+      213: 4803295292315872332
+    second: Ground Tile FINAL_137
+  - first:
+      213: -489534627936957830
+    second: Ground Tile FINAL_138
+  - first:
+      213: 7567479948129933643
+    second: Ground Tile FINAL_139
+  - first:
+      213: 9056267922586866434
+    second: Ground Tile FINAL_140
+  - first:
+      213: -888738610723651692
+    second: Ground Tile FINAL_141
+  - first:
+      213: 7160454876433905757
+    second: Ground Tile FINAL_142
+  - first:
+      213: 7188246656296520665
+    second: Ground Tile FINAL_143
+  - first:
+      213: -6235628946967586949
+    second: Ground Tile FINAL_144
+  - first:
+      213: -3853930221434574715
+    second: Ground Tile FINAL_145
+  - first:
+      213: 5780038689099759591
+    second: Ground Tile FINAL_146
+  - first:
+      213: 6423970116152985036
+    second: Ground Tile FINAL_147
+  - first:
+      213: -3267017232210830738
+    second: Ground Tile FINAL_148
+  - first:
+      213: -167967691383447014
+    second: Ground Tile FINAL_149
+  - first:
+      213: -7946387584298116850
+    second: Ground Tile FINAL_150
+  - first:
+      213: 8467707429825754713
+    second: Ground Tile FINAL_151
+  - first:
+      213: 9198239078896341027
+    second: Ground Tile FINAL_152
+  - first:
+      213: -4361993550168133976
+    second: Ground Tile FINAL_153
+  - first:
+      213: -5337614879220629785
+    second: Ground Tile FINAL_154
+  - first:
+      213: -3659018896031777033
+    second: Ground Tile FINAL_155
+  - first:
+      213: 469970388911510018
+    second: Ground Tile FINAL_156
+  - first:
+      213: -4100641166222209680
+    second: Ground Tile FINAL_157
+  - first:
+      213: 1990352490156549697
+    second: Ground Tile FINAL_158
+  - first:
+      213: 9131101995622898513
+    second: Ground Tile FINAL_159
+  - first:
+      213: -7555530107637776165
+    second: Ground Tile FINAL_160
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground Tile FINAL_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31099e5e866b11670800000000000000
+      internalID: 8507781732729720851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17af26d61ff915f0800000000000000
+      internalID: -785316186451630308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b6ed4c91abfaf0800000000000000
+      internalID: -361517652379258026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 517
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688a962909b894010800000000000000
+      internalID: 1173622630954674310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 517
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3239bfdd9cc47c2f0800000000000000
+      internalID: -952708366269181149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 517
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171e5d99f639402a0800000000000000
+      internalID: -6772125832126799503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c4beb335dddba20800000000000000
+      internalID: 3079861069748587570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_8
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ece735bd5cbc3c0800000000000000
+      internalID: -4338156270252012006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708ed78d876cbebc0800000000000000
+      internalID: -3752687642152671225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_10
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e31ba2943168590800000000000000
+      internalID: -7672423710209261987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8dacdaa7551a0d0800000000000000
+      internalID: -3413353057180002122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20af9d60140ad870800000000000000
+      internalID: 8708277298079440941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ac299bb4c069de0800000000000000
+      internalID: -1326859520838546806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 483
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b6ebe9d637507e0800000000000000
+      internalID: -1799905561412736099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 483
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a13ba0ebbdf684a0800000000000000
+      internalID: -6591302021240114778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 483
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91742b045b1ab3f0800000000000000
+      internalID: -884364329046740577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_18
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d82561e2694d0d0800000000000000
+      internalID: -3398926694070710990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6496f513bf1a580800000000000000
+      internalID: -8817490405942016270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_20
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32cbe9eb2937c250800000000000000
+      internalID: 5964799092246430271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e635b669cfbf8e0800000000000000
+      internalID: -1658454314779972077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_22
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 481
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99123fe387d918930800000000000000
+      internalID: 4143766271935324569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c81af3af8a016b90800000000000000
+      internalID: -7250502313042110270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd1848c72e9341f0800000000000000
+      internalID: -1061831193428222524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a8eb454cf69a200800000000000000
+      internalID: 191807348166003273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 449
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0070d4d9fc3227540800000000000000
+      internalID: 5004101510566315776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 449
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e04df876bf6c5d0800000000000000
+      internalID: -3042468076028948867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 449
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d20892dabf5bfe60800000000000000
+      internalID: 7997090819328180949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_30
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740c2f5ca38ba1840800000000000000
+      internalID: 5195667682693922887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_31
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5422b25ddaac547a0800000000000000
+      internalID: -6393481248028024251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26d5c39459a6f300800000000000000
+      internalID: 285601807106168364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_33
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5acca24ac8d88730800000000000000
+      internalID: 4001686632132299357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_34
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 447
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24acc25af1699f730800000000000000
+      internalID: 4033420003946318402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 413
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e9e3862107dfef0800000000000000
+      internalID: -72778794607403416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_36
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 413
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757182e2a8dd47630800000000000000
+      internalID: 3924004760896149335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_37
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 413
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc30002d3adb92d90800000000000000
+      internalID: -7121952824409193524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_38
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 413
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242fe8c9d7f68aad0800000000000000
+      internalID: -2690778192065662398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_39
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 413
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86a0fa2351ee370800000000000000
+      internalID: 8353637666248091826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 379
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778897d89d55489e0800000000000000
+      internalID: -1620075573076719497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 379
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fcf669b8831c2e0800000000000000
+      internalID: -2107340978457161906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 379
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52014db943336430800000000000000
+      internalID: 3774917304467391071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_43
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 381
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dc6c515df2326a0800000000000000
+      internalID: -6475279246988751460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_44
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 381
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02c25225904c5030800000000000000
+      internalID: 3484731220948075021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_45
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 381
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9cab82f0ae02cd0800000000000000
+      internalID: -2584808835281925659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_46
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 345
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de88805e4add3e020800000000000000
+      internalID: 2369981529213929709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_47
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 345
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d410c9fad5fe880800000000000000
+      internalID: -8579535756299514568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_48
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 347
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cd97864c3cd26b0800000000000000
+      internalID: -5319380336520864626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_49
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 347
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51db22a3007b821f0800000000000000
+      internalID: -1069403699897254635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_50
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf514fb61f38db10800000000000000
+      internalID: 2006423000924118956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_51
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eab1b3c4173b120800000000000000
+      internalID: 2428409196305952269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_52
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 344
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9ef43f4d6747ca0800000000000000
+      internalID: -6020056144900265534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_53
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 345
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccaba6274eaaeec0800000000000000
+      internalID: -3536822936731407156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_54
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 345
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2203042e37d846a10800000000000000
+      internalID: 1901800471513804834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_55
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 345
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2387c54a6af988a0800000000000000
+      internalID: -6302230869184117971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5570e7e5c29dad960800000000000000
+      internalID: 7627647703492462421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d9dd9fbb78c0e30800000000000000
+      internalID: 4471097771492744500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_58
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325b8c0d644e43c20800000000000000
+      internalID: 3185421829259441443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_59
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 313
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d63c21909757180800000000000000
+      internalID: -9118248790665237155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_60
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 313
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d1efd271f041480800000000000000
+      internalID: -8929495568938558139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_61
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 313
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030c2ea635eec6cf0800000000000000
+      internalID: -257569036624019408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_62
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fd3d16eca35dba0800000000000000
+      internalID: -6064876665105555615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_63
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc9ce6fb692fb620800000000000000
+      internalID: 2791995837673938099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_64
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 310
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04546152c06efcbd0800000000000000
+      internalID: -2607612719388015296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_65
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74054d0d047a18f0800000000000000
+      internalID: -569014803502922625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_66
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dad9b26943a9afb0800000000000000
+      internalID: -4635994805816927527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_67
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32578fee1a10c2c0800000000000000
+      internalID: -4413498914653121985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_68
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 261
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ca261a933b629c0800000000000000
+      internalID: -3952274562868925391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_69
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 261
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272c50ac2116217c0800000000000000
+      internalID: -4102109577254419854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_70
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 261
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b813da554adcf30800000000000000
+      internalID: 4597511482500025145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_71
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 261
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fef9f736b947520800000000000000
+      internalID: 2698952928347025177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_72
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd13d88b9440fdc0800000000000000
+      internalID: -3607307866717610555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_73
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2e2377bf8241970800000000000000
+      internalID: 8724643438625219253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_74
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 276
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da860a46a1638360800000000000000
+      internalID: 7170682398538369749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_75
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 277
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8c5b94f8b079480800000000000000
+      internalID: -8892626229174875907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_76
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 277
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ee808490821f2b0800000000000000
+      internalID: -5552612845242749357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_77
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 277
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef99b46b38a8d7de0800000000000000
+      internalID: -1333757616328041986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_78
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 227
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cb8aaaafaeb9bf0800000000000000
+      internalID: -316400986473579421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_79
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 227
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f0e17e57cc556c0800000000000000
+      internalID: -4155190274418667764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_80
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 227
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cf9d1e939da95d0800000000000000
+      internalID: -3054890554591937471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_81
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 227
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6d0a232ba49c730800000000000000
+      internalID: 4019826271618913962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 227
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9448e60750f27c0800000000000000
+      internalID: -4094047555807852125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_89
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 193
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8a1b8bab055fbd0800000000000000
+      internalID: -2597080847216432966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_90
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 193
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f3bd675a0fbd5a0800000000000000
+      internalID: -6495333444097458431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_91
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 193
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066410ebdf0f888a0800000000000000
+      internalID: -6302522705899862432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 193
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1fcae068afe56c0800000000000000
+      internalID: -4152606352710241811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_93
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 193
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82671e98b737547d0800000000000000
+      internalID: -2934812607730584024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_94
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 213
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01abc907b1371d80800000000000000
+      internalID: -8280094727684251380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_95
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 213
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318d238199a660c80800000000000000
+      internalID: -8356874852770850797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_96
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 213
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1f568747117bd80800000000000000
+      internalID: -8235094201689837122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 213
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea148b5e05fabee0800000000000000
+      internalID: -1244412905000789277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_98
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 213
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcef5f1e7cdf7c20800000000000000
+      internalID: 3206523893961452796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_99
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 213
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0eb5812de95b440800000000000000
+      internalID: 4951037990552723652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_101
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4eeec096843aff40800000000000000
+      internalID: 5762976425733713482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_102
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab33067d394f4f00800000000000000
+      internalID: 1103180962050816938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_103
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea6967a93c7a0dc0800000000000000
+      internalID: -3671985959103534357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_104
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e067dd6970b47f780800000000000000
+      internalID: -8649362063373797874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_105
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 159
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb913574ffed71790800000000000000
+      internalID: -7559328261523433025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_106
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad195de7f21461bd0800000000000000
+      internalID: -2659866857668505126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_107
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50b3487ed1c23fc0800000000000000
+      internalID: -3516535197778333605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_108
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c783e43c3d14acba0800000000000000
+      internalID: -6067965170157733764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_109
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7e2bf3e1f7cb0e0800000000000000
+      internalID: -2252785945697654790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_110
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8052f3fcccc818400800000000000000
+      internalID: 324695459425625352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_111
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2719f41c2b50b9330800000000000000
+      internalID: 3718572182630011250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_118
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 145
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20707ecfa575f5d90800000000000000
+      internalID: -7106865638665681150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 145
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1556bf6cb4164100800000000000000
+      internalID: 91783641968301339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_120
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 145
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670598499641b5ed0800000000000000
+      internalID: -2424321530712731530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_121
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 145
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6816f16cc3567f6f0800000000000000
+      internalID: -650940309435358842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_122
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 145
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227757e5eaaef1000800000000000000
+      internalID: 8983758907995938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_123
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 145
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56835dd89db5104a0800000000000000
+      internalID: -6628916186567067547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_125
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 118
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e69d4b678fb56a30800000000000000
+      internalID: 4207980015189333731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_126
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 118
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4c94a1e463f1d50800000000000000
+      internalID: 6710141678881719504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_128
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 118
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdff17871ab056b0800000000000000
+      internalID: -5309539350455779897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_129
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 118
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f103e5be0ef9c410800000000000000
+      internalID: 1498007690211951097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_135
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 84
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d11c81c9458a920800000000000000
+      internalID: 3001742181049376007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_136
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 84
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828723748796ed4a0800000000000000
+      internalID: -6566695241348122584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_137
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 84
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c2bc19e9bb8a240800000000000000
+      internalID: 4803295292315872332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_138
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 84
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a809c79d2d439f0800000000000000
+      internalID: -489534627936957830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_139
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 84
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b491d292be6150960800000000000000
+      internalID: 7567479948129933643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_140
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 76
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2031e8481b35ead70800000000000000
+      internalID: 9056267922586866434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_141
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 76
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f74a931f09aa3f0800000000000000
+      internalID: -888738610723651692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_142
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 76
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d587e0cb5cb0f5360800000000000000
+      internalID: 7160454876433905757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_143
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 84
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db817abf38c1c360800000000000000
+      internalID: 7188246656296520665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_144
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 10
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b779ad0b2889679a0800000000000000
+      internalID: -6235628946967586949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_145
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 84
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588ef32f1e6148ac0800000000000000
+      internalID: -3853930221434574715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_146
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef3ec35092d63050800000000000000
+      internalID: 5780038689099759591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_147
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc50605f8c6862950800000000000000
+      internalID: 6423970116152985036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_148
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a5efef22939a2d0800000000000000
+      internalID: -3267017232210830738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_149
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12e85d46424badf0800000000000000
+      internalID: -167967691383447014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_150
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0916560892c8b190800000000000000
+      internalID: -7946387584298116850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_151
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95633b82b07538570800000000000000
+      internalID: 8467707429825754713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_152
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3209bb835b5b6af70800000000000000
+      internalID: 9198239078896341027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_154
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eef6381c8bfce5b0800000000000000
+      internalID: -5337614879220629785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_155
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 16
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe759b43bd883dc0800000000000000
+      internalID: -3659018896031777033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_156
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 16
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d506249ba58600800000000000000
+      internalID: 469970388911510018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_157
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 16
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d4bffd5989717c0800000000000000
+      internalID: -4100641166222209680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_158
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 16
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14668916b072f9b10800000000000000
+      internalID: 1990352490156549697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Tile FINAL_159
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 16
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b96f8e2e038be70800000000000000
+      internalID: 9131101995622898513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
