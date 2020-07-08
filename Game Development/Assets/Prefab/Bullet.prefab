@@ -139,7 +139,7 @@ MonoBehaviour:
   rb: {fileID: 1898395436564039567}
   animator: {fileID: -3482823045835145506}
   timeToLive: 3
-  bulletDamage: 50
+  bulletDamage: 15
 --- !u!95 &-3482823045835145506
 Animator:
   serializedVersion: 3
