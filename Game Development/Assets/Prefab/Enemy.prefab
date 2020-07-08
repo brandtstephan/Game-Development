@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 7468471837509096174}
   - component: {fileID: 7468471839205390504}
   m_Layer: 11
-  m_Name: Enemy 1
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,7 +135,6 @@ MonoBehaviour:
   enemyManager: {fileID: 7468471837509096169}
   currentState: {fileID: 11400000, guid: d2cd414959e648b418a08dbb21b68779, type: 2}
   sceneGizmoColor: {r: 1, g: 0, b: 0, a: 1}
-  eyes: {fileID: 7468471837665908753}
   enemyRigidBody: {fileID: 7468471837509096168}
   remainState: {fileID: 11400000, guid: 223c6e2d91cfdd341963706fc8e7fa9a, type: 2}
   isGrounded: 1
@@ -203,6 +202,7 @@ MonoBehaviour:
   enemyStats: {fileID: 11400000, guid: 255c628069570094da0027c80c1106bd, type: 2}
   enemyKnockback: {fileID: 7468471839205390504}
   enemyRigidBody: {fileID: 7468471837509096168}
+  eyes: {fileID: 7468471837665908753}
   animator: {fileID: 7468471837509096174}
   isFacingRight: 0
 --- !u!95 &7468471837509096174

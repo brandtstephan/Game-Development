@@ -6,7 +6,8 @@ public class EnemyManager : MonoBehaviour
 {
     public DefaultEnemyStats enemyStats;
     public KnockBack enemyKnockback;
-    public Rigidbody2D enemyRigidBody;  
+    public Rigidbody2D enemyRigidBody;
+    public Transform eyes;
     public Animator animator;
     public bool isFacingRight;
     private float health;
@@ -118,6 +119,16 @@ public class EnemyManager : MonoBehaviour
         GetComponent<StateController>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
         Destroy(this.gameObject, 10f);
+    }
+
+    void OnDrawGizmos()
+    {
+        for (var i = 0; i < 5; i++)
+        {
+            //Physics2D.Raycast(eyes.transform.position, (new Vector2(eyes.transform.position.x + enemyStats.lookRadius, eyes.transform.position.y) - eyes.transform.position).normalized);
+        }
+        Ray ray = new Ray();
+        Gizmos.DrawRay(ray);
     }
 }
 

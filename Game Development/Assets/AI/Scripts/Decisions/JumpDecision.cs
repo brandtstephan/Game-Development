@@ -17,7 +17,7 @@ public class JumpDecision : Decision
 
         Vector2 dir = new Vector2(direction, 0.0f);
 
-        RaycastHit2D hitWall = Physics2D.Raycast(controller.eyes.position, dir, controller.enemyManager.enemyStats.distanceJumpAction, LayerMask.GetMask("Ground"));
+        RaycastHit2D hitWall = Physics2D.Raycast(controller.enemyManager.eyes.position, dir, controller.enemyManager.enemyStats.distanceJumpAction, LayerMask.GetMask("Ground"));
         RaycastHit2D hitCanJump= Physics2D.Raycast(controller.wallChecker.position, dir, controller.enemyManager.enemyStats.distanceJumpAction * 1.5f, LayerMask.GetMask("Ground"));
 
         if (hitWall.collider != null && controller.isGrounded && hitCanJump.collider == null)

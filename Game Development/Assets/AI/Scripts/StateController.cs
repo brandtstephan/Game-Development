@@ -12,7 +12,6 @@ public class StateController : MonoBehaviour
     public State currentState;
     private bool aiActive;
     public Color sceneGizmoColor = Color.red;
-    public Transform eyes;
     private float startTime;
     public Rigidbody2D enemyRigidBody;
     public State remainState;
@@ -51,9 +50,8 @@ public class StateController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        if(currentState != null && eyes != null)
+        if(currentState != null && enemyManager.eyes != null)
         {
-            //Gizmos.color = sceneGizmoColor;
             
             float direction = enemyManager.isFacingRight ? 1f : -1f;
 
@@ -63,7 +61,7 @@ public class StateController : MonoBehaviour
             //Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.lookRadius);
             //Gizmos.color = Color.green;
             //Gizmos.DrawWireSphere(eyes.position, enemyManager.enemyStats.attackDistance);
-            Debug.DrawRay(eyes.position, dir);
+            Debug.DrawRay(enemyManager.eyes.position, dir);
             Debug.DrawRay(wallChecker.position, dir2, Color.red);
         }
     }
